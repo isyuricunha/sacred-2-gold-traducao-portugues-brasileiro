@@ -38,7 +38,7 @@ decisões, problemas e a próxima etapa.
 - 0023 (500 entradas) - aplicado; 2 rejeicoes corrigidas: <Deep sigh> e sintaxe protegida (copiado exato) e 1000376612 texto grego/arameu misto de dev (definido igual ao EN); creditos da equipe de localizacao PT mantidos
 - 0024 (500 entradas) - aplicado sem rejeicoes; livro dos Anoes e textos de testemunho de seletor de gladiadores traduzidos; marco de 12.000 entradas
 - 0025 (500 entradas) - aplicado sem rejeicoes; lapides humoristicas e creditos em frances mantidos; notas de som <...> copiadas exatas
-- 0026 (500 entradas) - aplicado sem rejeicoes; marco de 13.000 entradas; concordia Senhor Astral adicionada
+- 0026 (500 entradas) - aplicado; grupo c tinha 124 entradas (1 entrada faltava, 1129089054 AH! Droga!), aplicada depois; marco de 13.000 entradas; concordia Senhor Astral adicionada
 - 0009 (500 entradas) - aplicado sem rejeicoes; fala boba de Troll/Orc goblinizada propositalmente; notas de som <...> copiadas exatas
 
 ## Decisões e problemas abertos

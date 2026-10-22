@@ -8,7 +8,7 @@ decisões, problemas e a próxima etapa.
 
 - Geração: 52ac93bbf34f8812a15ea2a3025c5e07c06f4cd7724b114ca6c49539f1c79fdd
 - Corpus: 58.913 entradas, 118 lotes (RES 57.989 + CSVs 924)
-- Traduzido: 7.500/58.913
+- Traduzido: 8.000/58.913
 - Última etapa concluída: leitura dos docs; diretrizes e glossário iniciais
 
 ## Lotes concluídos
@@ -27,7 +27,8 @@ decisões, problemas e a próxima etapa.
 - 0012 (500 entradas) - aplicado; 1 rejeicao: ordem de tags </i><br></b> no titulo Mead do livro de bebidas divergia; replicada a ordem exata do EN
 - 0013 (500 entradas) - aplicado sem rejeicoes; dialogo com polemica de fe da sacerdotisa e goblinada mantidas no tom
 - 0014 (500 entradas) - aplicado sem rejeicoes; livro de armas (Book 1) traduzido integralmente; falas de Ogro mantidas goblinadas
-- 0015 (500 entradas) - aplicado; 1 erro meu: ID 668471123 digitado errado (o real e 668471122, Martelo); helper recusou e corrigi; nomes de itens de quest traduzidos com consistencia
+- 0015 (500 entradas) - aplicado; 2 erros meus: ID 668471123 digitado errado (o real e 668471122, Martelo) e 15 IDs de Coracao de Esportista Orc inventados no grupo d; helper recusou ambos e corrigi; lote 0015 fechado em commit separado (79cf92c)
+- 0016 (500 entradas) - aplicado sem rejeicoes; itens de teste TESTE mantidos com rotulos de teste; nomes de item consistentes
 - 0009 (500 entradas) - aplicado sem rejeicoes; fala boba de Troll/Orc goblinizada propositalmente; notas de som <...> copiadas exatas
 
 ## Decisões e problemas abertos
@@ -41,4 +42,4 @@ decisões, problemas e a próxima etapa.
 
 ## Próxima etapa
 
-Traduzir batch-0016 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22). LOTE 0015 CONCLUIDO (7.500/58.913): o commit da874a3 foi feito com so 375 strings aplicadas; as 125 finais entraram em commit separado.
+Traduzir batch-0017 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22). LOTE 0015 CONCLUIDO (7.500/58.913): o commit da874a3 foi feito com so 375 strings aplicadas; as 125 finais entraram em commit separado.

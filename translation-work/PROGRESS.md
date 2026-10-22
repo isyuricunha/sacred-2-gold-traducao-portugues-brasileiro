@@ -8,7 +8,7 @@ decisões, problemas e a próxima etapa.
 
 - Geração: 52ac93bbf34f8812a15ea2a3025c5e07c06f4cd7724b114ca6c49539f1c79fdd
 - Corpus: 58.913 entradas, 118 lotes (RES 57.989 + CSVs 924)
-- Traduzido: 6.000/58.913
+- Traduzido: 6.500/58.913
 - Última etapa concluída: leitura dos docs; diretrizes e glossário iniciais
 
 ## Lotes concluídos
@@ -25,6 +25,7 @@ decisões, problemas e a próxima etapa.
 - 0010 (500 entradas) - aplicado sem rejeicoes; primeiro marco de 5.000 entradas
 - 0011 (500 entradas) - aplicado sem rejeicoes; livro do ervanario, caderno de Diaanja, guia de banquete e guia de mortos-vivos traduzidos
 - 0012 (500 entradas) - aplicado; 1 rejeicao: ordem de tags </i><br></b> no titulo Mead do livro de bebidas divergia; replicada a ordem exata do EN
+- 0013 (500 entradas) - aplicado sem rejeicoes; dialogo com polemica de fe da sacerdotisa e goblinada mantidas no tom
 - 0009 (500 entradas) - aplicado sem rejeicoes; fala boba de Troll/Orc goblinizada propositalmente; notas de som <...> copiadas exatas
 
 ## Decisões e problemas abertos
@@ -38,4 +39,4 @@ decisões, problemas e a próxima etapa.
 
 ## Próxima etapa
 
-Traduzir batch-0013 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).
+Traduzir batch-0014 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).

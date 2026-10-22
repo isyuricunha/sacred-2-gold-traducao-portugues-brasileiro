@@ -1,0 +1,27 @@
+name: Empacotar PTBR
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'PTBR/**'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - name: Verificar publicação sem reconstruir os recursos
+        run: python3 translation-work/toolkit.py verify-output --json
+      - name: Empacotar e conferir o ZIP
+        run: python3 translation-work/toolkit.py package --json
+      - uses: actions/upload-artifact@v7
+        with:
+          name: traducao-ptbr
+          path: PTBR.zip
+          if-no-files-found: error
+          compression-level: 0

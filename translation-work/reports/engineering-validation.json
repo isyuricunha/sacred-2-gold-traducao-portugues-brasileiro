@@ -1,0 +1,52 @@
+{
+  "active_translations": 0,
+  "baseline_profile": "single verified English baseline; patch affiliation unconfirmed",
+  "batches": 118,
+  "csv_entries": 924,
+  "entries": 57989,
+  "game_installation_modified_during_toolkit_development": false,
+  "github_actions_executed": false,
+  "hashes": 140326,
+  "independent_previous_js_decoder_match": true,
+  "installed_sample_unchanged": true,
+  "last_batch": 413,
+  "limitations": [
+    "Patch affiliation of baseline unconfirmed; one explicit English baseline only.",
+    "New native source files/unknown editions fail closed until profile is extended or provenance attested.",
+    "CSV alternative slot reordering requires manual review; no fuzzy matching.",
+    "No runtime test of Python-generated translated RES; previous JS sample was shown working by Yuri.",
+    "GitHub Actions execution and Linux OS-level symlink test not run in this Windows session."
+  ],
+  "managed_source_paths": [
+    "locale/en_UK/global.res",
+    "locale/en_UK/AppendBonus.csv",
+    "locale/en_UK/AppendMaterial.csv",
+    "locale/en_UK/AppendRare.csv",
+    "locale/en_UK/DescriptionBonus.csv",
+    "locale/en_UK/DescriptionMaterial.csv",
+    "locale/en_UK/DescriptionRare.csv",
+    "locale/en_UK/Itemnames.csv",
+    "locale/en_UK/Optional.csv"
+  ],
+  "no_partial_ptbr": true,
+  "original_sha256": "afee8682f32faacb0f8c6492d45cbd0965579c1e08b136a8dbc3a2ed18a1eb9d",
+  "public_workflow": "push main with PTBR/** changes; workflow_dispatch; no GitHub Release; read-only permissions",
+  "python_encoder_existing_63_entry_sample": "roundtrip passed; all 57989 entries matched via independent community JavaScript decoder",
+  "rebuilt_bytes": 3236340,
+  "rebuilt_sha256": "ad7ca8739abc726b902e838e809a5e90646fb45595a78a4219a60ffdffc9b259",
+  "records": 58913,
+  "runtime_test_previous_js_encoder": "Yuri screenshot: Options rendered as Opções",
+  "runtime_test_python_encoder": false,
+  "seconds": 21.517351599992253,
+  "semantically_identical": true,
+  "source_files": 9,
+  "symlink_os_test": "skipped: local Windows lacks permission; traversal and junction checks implemented",
+  "test_suite": {
+    "command": "python -B -m unittest discover -s translation-work/tests -v",
+    "passed": 24,
+    "skipped": 1,
+    "total": 25
+  },
+  "verified": true,
+  "zip_fixture_test": true
+}

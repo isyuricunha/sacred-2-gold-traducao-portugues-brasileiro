@@ -1,2 +1,10 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+/EN/** -text
+/PTBR/** -text
+/translation-work/accepted-sources/** -text
+*.py text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+*.md text eol=lf
+*.yml text eol=lf

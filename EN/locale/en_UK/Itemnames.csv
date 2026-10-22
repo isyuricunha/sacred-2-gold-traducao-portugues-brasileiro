@@ -1,0 +1,72 @@
+NGCLF_2H_AXE;Great Axe,1;Battle Axe,1;War Axe,1
+NGCLF_2H_HAMMER;Great Hammer,1;Maul,1;War Hammer,1
+NGCLF_2H_SWORD;Great Sword,1;Flamberge,1;War Blade,1
+NGCLF_AMULET;Amulet,1;Pendant,1;Talisman,1
+NGCLF_AXE;Axe,1;Hatchet,1;Cleaver,1
+NGCLF_BASTARDSWORD;Bastard Sword,1;Battle Sword,1;Wicked Blade,1
+NGCLF_BELT_LIGHT;Sash,1;Cincture,1;Waistband,1
+NGCLF_BLOWGUN;Hollowshot,1;Blowpipe,1;Bamboo Pipe,1
+NGCLF_BOLA;Bola,1;Entangler,1;Ensnarler,1
+NGCLF_BOOK;Book,1;Tome,1;Compendium,1
+NGCLF_BOOT_HEAVY;Sabatons,1;Plate Boots,1;Heavy Boots,1
+NGCLF_BOOT_LIGHT;Shoes,1;Sandals,1;Slippers,1
+NGCLF_BRACERS_HEAVY;Plate Bracers,1;Vambraces,1;Wristguards,1
+NGCLF_BRACERS_LIGHT;Sleeves,1;Cuffs,1;Wristbands,1
+NGCLF_BRACERS_TENERGY;Scarthin Bracers,1;Scarthin Vambraces,1;Scarthin Gussets,1
+NGCLF_BUCKLER;Buckler,1;Small Round Shield,1;Targe,1
+NGCLF_CHAINWEAPON;Morning Star,1;Scourge,1;Nunchaku,1
+NGCLF_CHEST_HEAVY;Chestguard,1;Cuirass,1;Breastplate,1
+NGCLF_CHEST_LIGHT;Robe,1;Vestment,1;Tunic,1
+NGCLF_CHEST_MEDIUM;Harness,1;Hauberk,1;Battlevest,1
+NGCLF_CLUB;Club,1;Bludgeon,1;Cudgel,1
+NGCLF_COWL_HEAVY;Bascinet,1;Coif,1;Face Guard,1
+NGCLF_COWL_LIGHT;Cap,1;Hood,1;Headdress,1
+NGCLF_CRESTSHIELD;Crested Shield,1;Crested Protector,1;Crested Defender,1
+NGCLF_DAGGER;Dagger,1;Dirk,1;Stiletto,1
+NGCLF_ENERGY_PISTOL;Energy Pistol,1;Energy Smallarm,1;Energy Shot,1
+NGCLF_ENERGY_WEAPON;Energy Weapon,1;Energiser,1;Energistic Weapon,1
+NGCLF_FISTWEAPON;Knuckles,1;Knuckle Duster,1;Talons,1
+NGCLF_FLAIL;Flail,1;Battle Flail,1;War Flail,1
+NGCLF_FOIL;Rapier,1;Cutlass,1;Spatha,1
+NGCLF_HALBERD;Halberd,1;Bardiche,1;Gisarme,1
+NGCLF_HAMMER;Hammer,1;Battle Hammer,1;Demolisher,1
+NGCLF_HAND_HEAVY;Gauntlets,1;Plate Gloves,1;Handguards,1
+NGCLF_HAND_LIGHT;Gloves,1;Handwraps,1;Mitts,1
+NGCLF_HELMET_HEAVY;Barbute,1;Casque,1;Full Helm,1
+NGCLF_HELMET_LIGHT;Helm,1;Skullcap,1;Headgear,1
+NGCLF_JAVELIN;Spear,1;Javelin,1;Impaler,1
+NGCLF_JEWEL;Jewel,1;Gemstone,1;Bauble,1
+NGCLF_LEG_HEAVY;Plate Legs,1;Legguards,1;Greaves,1
+NGCLF_LEG_LIGHT;Pants,1;Leggings,1;Pantaloons,1
+NGCLF_LONGBOW;Longbow,1;Composite Longbow,1;Carved Longbow,1
+NGCLF_MAGESTAFF;Quarter Staff,1;Mage Staff,1;Magic Rod,1
+NGCLF_MAGESTAFF_2H;Long Staff,1;Ritual Staff,1;Ceremonial Staff,1
+NGCLF_PISTOL;Pistol,1;Handgun,1;Smallarm,1
+NGCLF_POLE;Glaive,1;Lance,1;Pike,1
+NGCLF_POTION;Potion,1;Elixir,1;Phial,1
+NGCLF_REAGENT;Reagent,1;Ingredients,1;Components,1
+NGCLF_RECEIPE;Recipe,1;Formula,1;Method,1
+NGCLF_RECURVEBOW;Recurve Bow,1;Heavy Recurve Bow,1;Leaden Recurve Bow,1
+NGCLF_RING;Ring,1;Signet Ring,1;Hoop,1
+NGCLF_ROUNDSHIELD;Large Round Shield,1;Defender,1;Protector,1
+NGCLF_RUNE;Rune,1;Glyph,1;Shard,1
+NGCLF_SABER;Saber,1;Falchion,1;Scimitar,1
+NGCLF_SADDLE;Saddle,1;Trail Saddle,1;Parade Saddle,1
+NGCLF_SADDLE_BATTLE;Combat Saddle,1;War Saddle,1;High Saddle,1
+NGCLF_SCROLL;Scroll,1;Parchment,1;Leaf,1
+NGCLF_SHORTBOW;Short Bow,1;Composite Short Bow,1;Light Bow,1
+NGCLF_SHORTSWORD;Short Sword,1;Quick Blade,1;Eviscerator,1
+NGCLF_SHOULDER_HEAVY;Spaulders,1;Pauldron,1;Shoulder Plates,1
+NGCLF_SHOULDER_LIGHT;Cloak,1;Cape,1;Shoulder Pads,1
+NGCLF_SPIKEDSHIELD;Thorn Shield,1;Spiked Protector,1;Spiked Defender,1
+NGCLF_SWORD;Edged Blade,1;Annealed Blade,1;Hardened Blade,1
+NGCLF_THROW_DAGGER;Throwing Dagger,1;Throwing Knife,1;Throwing Blade,1
+NGCLF_THROW_DRINK;Throwing Potion,1;Explosive Liquid,1;Hazardous Phial,1
+NGCLF_THROW_STAR;Throwing Star,1;Shuriken,1;Bladed Star,1
+NGCLF_THROW_STONE;Rocks,1;Pellets,1;Shot,1
+NGCLF_TOWERSHIELD;Aegis,1;Tower Shield,1;Kite Shield,1
+NGCLF_WHIP;Whip,1;Lash,1;Crop,1
+NGCLF_WINGS_HEAVY;Reinforced Wings,1;Durable Wings,1;Fortified Wings,1
+NGCLF_WINGS_LIGHT;Flutters,1;Silken Wings,1;Gossamer Wings,1
+NGCLF_ARTEFACT;Relic,1;Relic,1;Relic,1
+NGCLF_BATTERY;Battery,1;Battery,1;Battery,1

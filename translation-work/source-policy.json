@@ -1,0 +1,10 @@
+{
+  "note": "Trusted baseline: original RES preserved before sample test; CSVs copied unchanged. Unknown editions require explicit fingerprint attestation; no vanilla claim.",
+  "rejected": [
+    "2b3c0946adc739654348c6b09b8057cecccaa99484ec28482d4884ef0fbe42f5"
+  ],
+  "schema": 1,
+  "trusted": [
+    "52ac93bbf34f8812a15ea2a3025c5e07c06f4cd7724b114ca6c49539f1c79fdd"
+  ]
+}

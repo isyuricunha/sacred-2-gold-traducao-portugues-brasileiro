@@ -1,0 +1,54 @@
+hasGender=false;
+NAME_BON_DMG_PHY;of Wounding;of Injury;of Pain;of Torment;of Agony
+NAME_BON_DMG_FIRE;of the Salamander;of Embers;of Dragon Breath;of Flaring;of Lava
+NAME_BON_DMG_ICE;of the Glacier;of Ice Crystals;of the Penguin;of Frost;of Numbing
+NAME_BON_DMG_POISON;of the Shadow Herb;of the Withermilk Herb;of the Viper;of the Plague;of the Serpent
+NAME_BON_DMG_ARCANE;of Magic;of the Glyph;of Runes;of the Shard;of the Enigma
+NAME_BON_DEF_PHY;of Parrying;of Protection;of the Armadillo;of the Antler;of Retribution
+NAME_BON_DEF_FIRE;of Thermal Defense;of Fire Resistance;of Fire Protection;of the Volcano;of Magma
+NAME_BON_DEF_ICE;of Icy Defense;of Cold Resistance;of Thawing;of Melting;of Hibernation
+NAME_BON_DEF_POISON;of Poison Protection;of the Antidote;of Remedy;of the Shadows;of Curing
+NAME_BON_DEF_ARCANE;of Arcane Protection;of the Pentagram;of Protective Aura;of Starlight;of the Demonslayer
+NAME_BON_ENEMY_WEAK;of Weakness;of Deprivation;of Dwindling;of Despair;of Woe
+NAME_BON_POWER;of Influence;of Manipulation;of Chicanery;of Instill Fear;of Intimidation
+NAME_BON_DISARM;of Disarming;of Crippling;of Impairing;of Guile;of Betrayal
+NAME_BON_PUSH;of Knockback;of the Backlash;of Recoil;of Repulsion;of Deflection
+NAME_BON_OFFENSIVE;of the Onslaught;of Violent Reign;of Aggression;of Hate;of Bloodlust
+NAME_BON_DEFENSIVE;of Defense;of the Haven;of Preservation;of Guardianship;of Defiance
+NAME_BON_LEECH;of the Leech;of the Vampire;of Draining;of Transfusion;of Doom
+NAME_BON_CRITICAL;of Precision;of Accuracy;of Clinical Strike;of Smite;of the Assassin
+NAME_BON_EXTRA_DMG;of Brutality;of the Beast;of the Taurean;of Wrath;of Vengeance
+NAME_BON_STRENGTH;of the Berserker;of the Barbarian;of the Bear;of the Ox;of Violence
+NAME_BON_DEXTERITY;of the Cat;of Quicksilver;of the Deft;of the Monkey;of the Juggler
+NAME_BON_VITALITY;of Vitality;of Health;of Vigor;of Life;of Exuberance
+NAME_BON_WILLPOWER;of Willpower;of Determination;of Resolve;of Temperance;of Rigor
+NAME_BON_INTELIGENCE;of the Owl;of the Fox;of the Scholar;of Spirituality;of Tranquility
+NAME_BON_SPEED;of Speed;of Velocity;of Celerity;of the Wind;of Haste
+NAME_BON_STAMINA;of Stamina;of Endurance;of Resilience;of Eternity;of Fortitude
+NAME_BON_SERA_CA;of the Seraphim;;;;
+NAME_BON_INQ_CA;of the Inquisitor;;;;
+NAME_BON_HELVE_CA;of the Highelf;;;;
+NAME_BON_SWARR_CA;of the Shadow Warrior;;;;
+NAME_BON_DRYAD_CA;of the Dryad;;;;
+NAME_BON_TGUARD_CA;of the Temple Guardian;;;;
+NAME_BON_GOD_CA;of the Gods;;;;
+NAME_BON_INC_ATT;of Elevation;of Accumulation;of Augmentation;of Ascension;of Refinement
+NAME_BON_REG_ENERGY;of Renewal;of Restoration;of Replenishment;of Blessing;of Verve
+NAME_BON_REG_HEALTH;of Regeneration;of Rejuvenation;of Vivification;of Genesis;of Survival
+NAME_BON_RESISTANCE;of Resistance;of Impeding;of Immunity;of the Fungus;of the Elements
+NAME_BON_ARMOR;of Fortification;of Reinforcement;of the Champion;of the Bulwark;of the Tortoise
+NAME_BON_REFLECT;of the Mirror;of Reflection;of Retaliation;of Petrification;of the Basilisk
+NAME_BON_RESISTANCE;;;;;
+NAME_BON_HORSEMAN;of the Horseman;of the Saddle;of the Cavalier;of the Chivalrous;of the Stables
+NAME_BON_GOLD;of Wealth;of Coins;of Treasures;of Abundance;of Prosperity
+NAME_BON_DEALER;of Bargaining;of Haggling;of Profit;of the Lark;of Charisma
+NAME_BON_SMITH;of the Blacksmith;of the Forge;of the Anvil;of  the Tongs;of the Ingots
+NAME_BON_DROP;of Luck;of the Collector;of Fortune;of Greed;of Benefit
+NAME_BON_POTION;of Alchemy;of Concoction;of Reagents;of the Gypsy;of the Elixir
+NAME_BON_TEAM;of the Herd;of the Alliance;of Brothers in Arms;of the Crew;of the Squad
+NAME_BON_PVP;of Confrontation;of the Encounter;of Skirmish;of Conflict;of Combat
+NAME_BON_SIGHT;of the Eagle Eye;of Revelation;of the Falcon;of Verity;of Lucidity
+NAME_BON_UNQ_FIGHT;of Ancient Knowledge;of Legends;of Myths;of the Crypt;of the Ancestors
+NAME_BON_MAGIC_EFFECT;of the Unexpected;of Change;of the Unpredictable;of the Cataclysm;of Amazement
+NAME_BON_CAST_RELEASE;of Unleashing;of Spellweaving;of Discharging;of Outburst;of the Surge
+NAME_BON_WPN_LORE;of the Weapon Master;of Weapon Lore;of the Guard;of the Man-at-Arms;of the Mercenary

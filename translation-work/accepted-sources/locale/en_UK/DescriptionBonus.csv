@@ -1,0 +1,53 @@
+hasGender=false;
+NAME_BON_DMG_PHY;Ruinous;Bloody;Commander's;Avenger's;Deathbringer's
+NAME_BON_DMG_FIRE;Netherflame;Lambent;Inferno;Dragonian;Blazing
+NAME_BON_DMG_ICE;Snowshard;Glacial;Iceshard;Frostladen;Algid
+NAME_BON_DMG_POISON;Poison;Venom;Spider Fang;Miasmic;Putrid
+NAME_BON_DMG_ARCANE;Arcane;Glyphed;Runic;Mystic;Elementalist's
+NAME_BON_DEF_PHY;Archon's;Bulwark;Armadillo;Carapace;Hull-Husk
+NAME_BON_DEF_FIRE;Lava Forged;Flame Kissed;Iceberg;Fireguard;Anvil Fired
+NAME_BON_DEF_ICE;Frosted;Icecast;Immolation;Iceguard;Anvil Iced
+NAME_BON_DEF_POISON;Apothecary's;Anointed;Imbued;Infused;Herbalist's
+NAME_BON_DEF_ARCANE;Adorned;Empyrean;Ornate;Ancestral;Celestial
+NAME_BON_ENEMY_WEAK;Defiler's;Infiltrator's;Intrusion;Myrmidon's;Reaver's
+NAME_BON_POWER;Empowering;Lyricist's;Bardic;Illusionist's;Beguiler's
+NAME_BON_DISARM;Deliverance;Vigilante's;Pacifism;Arbiter's;Sentinel's
+NAME_BON_PUSH;Branded;Bashing;Knockback;Warden's;Dramatic
+NAME_BON_OFFENSIVE;Vindicator's;Demonslayer's;Dragonslayer's;Bloodstained;Hideous
+NAME_BON_DEFENSIVE;Blessed;Chitinous;Consecrated;Guardian's;Resistive
+NAME_BON_LEECH;Vampire's;Leeching;Caliginous;Soulshard;Sepulcher
+NAME_BON_CRITICAL;Exquisite;Assassin's;Rogue's;Doomrage;Painweave
+NAME_BON_EXTRA_DMG;Barbed;Executioner's;Enforcing;Wrath;Crimson Fury
+NAME_BON_STRENGTH;Berserker's;Barbarian;Troll;Giant;Behemoth
+NAME_BON_DEXTERITY;Juggler's;Monkey's;Jester's;Hunter's;Pathfinder's
+NAME_BON_VITALITY;Iridescent;Vibrant;Dazzling;Opalescent;Luminescent
+NAME_BON_WILLPOWER;Regal;Sovereign;Fanatic's;Martyr's;Mentalist
+NAME_BON_INTELIGENCE;Scholaric;Sage's;Emissary's;Prophet's;Visionary's
+NAME_BON_SPEED;Shadow;Dustdevil;Windrider's;Tempest; Hurricane
+NAME_BON_STAMINA;Stalker's;Prowl;Predator's;Helldeep;Innerdeep
+NAME_BON_SERA_CA;Seraphim's;;;;
+NAME_BON_INQ_CA;Inquisitor's;;;;
+NAME_BON_HELVE_CA;Highelf's;;;;
+NAME_BON_SWARR_CA;Shadow Warrior's;;;;
+NAME_BON_DRYAD_CA;Dryad's;;;;
+NAME_BON_TGUARD_CA;Temple Guardian's;;;;
+NAME_BON_GOD_CA;Divine;;;;
+NAME_BON_INC_ATT;Augmented;Ancarian;Elevated;Elaborate;Exalted
+NAME_BON_REG_ENERGY;Energy;Incandescent;Sparkling;Effulgent;Scintillating
+NAME_BON_REG_HEALTH;Primordial;Vitalizing;Invigorating;Lifesap;Survivor's
+NAME_BON_RESISTANCE;Immunizing;Neutralizing;Shamanic;Repellent;Depurated
+NAME_BON_ARMOR;Protective;Armorer's;Shielding;Dense;Compact
+NAME_BON_REFLECT;Radiant;Reflective;Polished;Glazed;Echo
+NAME_BON_HORSEMAN;Cavalier's;Scout's;Lancer's;Knight's;Outrider's
+NAME_BON_GOLD;Brigand;Buccaneer;Gambler's;Raider's;Privateer's
+NAME_BON_DEALER;Treatised;Haggler's;Negotiator;Merchant;Vendor
+NAME_BON_SMITH;Forgecast;Blacksmith's;Burnished;Annealed;Blackened
+NAME_BON_DROP;Treasurehunter's;Luckster's;Collector's;Acquisitor's;Adventurer's
+NAME_BON_POTION;Alchemist's;Phial;Concoction;Elixir;Gypsy's
+NAME_BON_TEAM;Coalition;Alliance;Battlefront;Shield Brother's;Companion's
+NAME_BON_PVP;Skirmish;Encounter;Campaigner's;Warmonger;Warbringer
+NAME_BON_SIGHT;Eagle Eye;Falcon;Hawk;Explorer's;Harbinger's
+NAME_BON_UNQ_FIGHT;Mythical;Legendary;Fabled;Epic;Resplendent
+NAME_BON_MAGIC_EFFECT;Ensorcelled;Theurgist;Conjural;Crescent Moon;Spellwoven
+NAME_BON_CAST_RELEASE;Engraved;Ceremonial;Spiritweaver;Ghostal;Enchanted
+NAME_BON_WPN_LORE;Weaponmaster's;Weapon Lore;Mercenary's;Battlemaster's;Grandmaster's

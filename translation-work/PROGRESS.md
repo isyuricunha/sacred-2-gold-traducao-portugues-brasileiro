@@ -21,6 +21,7 @@ decisões, problemas e a próxima etapa.
 - 0006 (500 entradas) - aplicado sem rejeicoes; livro de Bengaresh e segundo livro de receitas; placeholders dev (yalla yalla, asdf, asdfasdf) mantidos exatos
 - 0007 (500 entradas) - aplicado; 1 rejeicao: lapide de Chevy Chase tem newline real no EN (mudanca de contagem de quebras nativas); corrigida com newline real
 - 0008 (500 entradas) - aplicado sem rejeicoes; telas de erro de rede multiplayer traduzidas; alemaes e notas dev mantidos
+- 0009 (500 entradas) - aplicado; 1 rejeicao persistente: EN com newlines reais internos e final (missao do nargutz); causa raiz era strip() do helper remover newline final; helper corrigido (sem strip) e entrada aceita
 - 0009 (500 entradas) - aplicado sem rejeicoes; fala boba de Troll/Orc goblinizada propositalmente; notas de som <...> copiadas exatas
 
 ## Decisões e problemas abertos

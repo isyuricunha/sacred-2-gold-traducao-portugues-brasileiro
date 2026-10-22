@@ -8,7 +8,7 @@ decisões, problemas e a próxima etapa.
 
 - Geração: 52ac93bbf34f8812a15ea2a3025c5e07c06f4cd7724b114ca6c49539f1c79fdd
 - Corpus: 58.913 entradas, 118 lotes (RES 57.989 + CSVs 924)
-- Traduzido: 8.000/58.913
+- Traduzido: 8.500/58.913
 - Última etapa concluída: leitura dos docs; diretrizes e glossário iniciais
 
 ## Lotes concluídos
@@ -29,6 +29,7 @@ decisões, problemas e a próxima etapa.
 - 0014 (500 entradas) - aplicado sem rejeicoes; livro de armas (Book 1) traduzido integralmente; falas de Ogro mantidas goblinadas
 - 0015 (500 entradas) - aplicado; 2 erros meus: ID 668471123 digitado errado (o real e 668471122, Martelo) e 15 IDs de Coracao de Esportista Orc inventados no grupo d; helper recusou ambos e corrigi; lote 0015 fechado em commit separado (79cf92c)
 - 0016 (500 entradas) - aplicado sem rejeicoes; itens de teste TESTE mantidos com rotulos de teste; nomes de item consistentes
+- 0017 (500 entradas) - aplicado sem rejeicoes; lapides de jogadores e dialogo de casamento de guerreiro Orc no tom; libras convertidas (300 pounds -> 150 quilos, six feet -> dois metros)
 - 0009 (500 entradas) - aplicado sem rejeicoes; fala boba de Troll/Orc goblinizada propositalmente; notas de som <...> copiadas exatas
 
 ## Decisões e problemas abertos
@@ -42,4 +43,4 @@ decisões, problemas e a próxima etapa.
 
 ## Próxima etapa
 
-Traduzir batch-0017 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22). LOTE 0015 CONCLUIDO (7.500/58.913): o commit da874a3 foi feito com so 375 strings aplicadas; as 125 finais entraram em commit separado.
+Traduzir batch-0018 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22). LOTE 0015 CONCLUIDO (7.500/58.913): o commit da874a3 foi feito com so 375 strings aplicadas; as 125 finais entraram em commit separado.

@@ -8,12 +8,12 @@ decisões, problemas e a próxima etapa.
 
 - Geração: 52ac93bbf34f8812a15ea2a3025c5e07c06f4cd7724b114ca6c49539f1c79fdd
 - Corpus: 58.913 entradas, 118 lotes (RES 57.989 + CSVs 924)
-- Traduzido: 0 (início do projeto)
+- Traduzido: 500/58.913
 - Última etapa concluída: leitura dos docs; diretrizes e glossário iniciais
 
 ## Lotes concluídos
 
-(nenhum ainda)
+- 0001 (500 entradas) - 4 payloads aplicados sem rejeicoes apos fix de anotacoes <...> protegidas
 
 ## Decisões e problemas abertos
 
@@ -26,4 +26,4 @@ decisões, problemas e a próxima etapa.
 
 ## Próxima etapa
 
-Traduzir batch-0001 (grupos pequenos, apply por payload, checkpoint por lote).
+Traduzir batch-0002 (grupos pequenos, apply por payload, checkpoint por lote).

@@ -35,7 +35,7 @@ decisões, problemas e a próxima etapa.
 - 0020 (500 entradas) - aplicado sem rejeicoes; marco de 10.000 entradas; livro 1 de Kybele e tela de atributos traduzidos
 - 0021 (500 entradas) - aplicado sem rejeicoes; concordias de aspectos padronizadas (Concordia de X); alemaes mantidos
 - 0022 (500 entradas) - aplicado; 2 rejeicoes corrigidas: sobra de newline que eu mesma inseri (935340693) e, antes, trocada a palavra potions (0021); livro de cozinha Orc e livro 2 de Testa traduzidos
-- 0023 (500 entradas) - aplicado; 1 rejeicao: <Deep sigh> e sintaxe protegida, copiei exato; creditos da equipe de localizacao PT e textos grego/arameu mistos mantidos exatos
+- 0023 (500 entradas) - aplicado; 2 rejeicoes corrigidas: <Deep sigh> e sintaxe protegida (copiado exato) e 1000376612 texto grego/arameu misto de dev (definido igual ao EN); creditos da equipe de localizacao PT mantidos
 - 0009 (500 entradas) - aplicado sem rejeicoes; fala boba de Troll/Orc goblinizada propositalmente; notas de som <...> copiadas exatas
 
 ## Decisões e problemas abertos

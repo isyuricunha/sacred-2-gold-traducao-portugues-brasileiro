@@ -8,7 +8,7 @@ decisões, problemas e a próxima etapa.
 
 - Geração: 52ac93bbf34f8812a15ea2a3025c5e07c06f4cd7724b114ca6c49539f1c79fdd
 - Corpus: 58.913 entradas, 118 lotes (RES 57.989 + CSVs 924)
-- Traduzido: 10.500/58.913
+- Traduzido: 11.000/58.913
 - Última etapa concluída: leitura dos docs; diretrizes e glossário iniciais
 
 ## Lotes concluídos
@@ -34,6 +34,7 @@ decisões, problemas e a próxima etapa.
 - 0019 (500 entradas) - aplicado sem rejeicoes; nomes estilizados de jogadores mantidos; alemaes (tote das pack, Leber, Barenzahn) mantidos
 - 0020 (500 entradas) - aplicado sem rejeicoes; marco de 10.000 entradas; livro 1 de Kybele e tela de atributos traduzidos
 - 0021 (500 entradas) - aplicado sem rejeicoes; concordias de aspectos padronizadas (Concordia de X); alemaes mantidos
+- 0022 (500 entradas) - aplicado; 2 rejeicoes corrigidas: sobra de newline que eu mesma inseri (935340693) e, antes, trocada a palavra potions (0021); livro de cozinha Orc e livro 2 de Testa traduzidos
 - 0009 (500 entradas) - aplicado sem rejeicoes; fala boba de Troll/Orc goblinizada propositalmente; notas de som <...> copiadas exatas
 
 ## Decisões e problemas abertos
@@ -47,4 +48,4 @@ decisões, problemas e a próxima etapa.
 
 ## Próxima etapa
 
-Traduzir batch-0022 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22). LOTE 0015 CONCLUIDO (7.500/58.913): o commit da874a3 foi feito com so 375 strings aplicadas; as 125 finais entraram em commit separado.
+Traduzir batch-0023 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22). LOTE 0015 CONCLUIDO (7.500/58.913): o commit da874a3 foi feito com so 375 strings aplicadas; as 125 finais entraram em commit separado.

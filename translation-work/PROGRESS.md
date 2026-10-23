@@ -8,7 +8,7 @@ decisões, problemas e a próxima etapa.
 
 - Geração: 52ac93bbf34f8812a15ea2a3025c5e07c06f4cd7724b114ca6c49539f1c79fdd
 - Corpus: 58.913 entradas, 118 lotes (RES 57.989 + CSVs 924)
-- Traduzido: 48.500/58.913 (82,3%)
+- Traduzido: 49.000/58.913 (83,2%)
 - Última etapa concluída: lote 0058 aplicado e commitado (29.000/58.913)
 
 ## Lotes concluídos
@@ -110,6 +110,7 @@ decisões, problemas e a próxima etapa.
 - 0095 (500 entradas) - aplicado; marco de 47.500 entradas (80,6%); lote inteiro de catalogo de criaturas/npcs (de Piratas de Pedra-Azul a clãs Orc Nur-Trak/Ore-Thag/Grurag) em uma unica passada
 - 0096 (500 entradas) - aplicado; marco de 48.000 entradas (81,5%); A Jogadora Vencedora (manual de tramposo) traduzido na integra; nbsp no fim de Transformers tratado com chave tipografica exata
 - 0097 (500 entradas) - aplicado; marco de 48.500 entradas (82,3%); bolo de casamento com laxantes (rankweed) e massagem do Hipocampo traduzidos; mulheres a tomar o poder (3 linhas) em serie
+- 0098 (500 entradas) - aplicado; marco de 49.000 entradas (83,2%); Livro 3 Magia de Gelo e manual de Caça traduzidos na integra; dialogo do esfregao (faxineira) e Vampiro do Sonho completados
 
 ## Decisões e problemas abertos
 
@@ -122,4 +123,4 @@ decisões, problemas e a próxima etapa.
 
 ## Próxima etapa
 
-Traduzir batch-0098 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).
+Traduzir batch-0099 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).

@@ -8,8 +8,8 @@ decisões, problemas e a próxima etapa.
 
 - Geração: 52ac93bbf34f8812a15ea2a3025c5e07c06f4cd7724b114ca6c49539f1c79fdd
 - Corpus: 58.913 entradas, 118 lotes (RES 57.989 + CSVs 924)
-- Traduzido: 22.000/58.913
-- Última etapa concluída: leitura dos docs; diretrizes e glossário iniciais
+- Traduzido: 29.000/58.913 (49,2%)
+- Última etapa concluída: lote 0058 aplicado e commitado (29.000/58.913)
 
 ## Lotes concluídos
 
@@ -58,7 +58,19 @@ decisões, problemas e a próxima etapa.
 - 0043 (500 entradas) - aplicado; texto do Fantasma da cama de 1816309966 mantido em EN (EN igual), sem traducao inventada; Guilhotina do Veredicto traduzida
 - 0044 (500 entradas) - aplicado; marco de 22.000 entradas (37,3%); discurso do bibliotecario e 1895682754 (Dranaigh) traduzidos; fala de Troll mantida goblinizada
 - 0045 (500 entradas) - aplicado; Livro 5 (Kuan) e diario do arqueologo traduzidos; 80 % e 100 por cento convertidos em por cento
-- 0009 (500 entradas) - aplicado sem rejeicoes; fala boba de Troll/Orc goblinizada propositalmente; notas de som <...> copiadas exatas
+- 0046 (500 entradas) - aplicado sem rejeicoes; marco de 23.000 entradas (39%); Livro 5 Kuan versao longa; perguntas politicas de escravos traduzidas
+- 0047 (500 entradas) - aplicado; marco de 23.500 entradas (39,9%); diario do mago (31 Tyrbor a 25 Yal) e Livro 5 Kuan longo traduzidos; livreto da arte da armadilha traduzido
+- 0048 (500 entradas) - aplicado; marco de 24.000 entradas (40,7%); salarios de soldadas, santificacao de Orczinhos e doacoes politicas traduzidos; falas com sotaque Mantling e Alemao mantidas
+- 0049 (500 entradas) - aplicado; marco de 24.500 entradas (41,6%); livreto de Pesca e dialogo do bar do fado traduzidos; linha do mestre do desenho mantida em Alemao
+- 0050 (500 entradas) - aplicado; marco de 25.000 entradas (42,4%); entrada de Gaia completa traduzida; focos e concordias de aspectos padronizados
+- 0051 (500 entradas) - aplicado; 2 rejeicoes corrigidas (b tag em Equipar item, e 38 IDs inventados no grupo b removidos antes do apply); diario do mago dragao traduzido; 50 % convertido em por cento
+- 0052 (500 entradas) - aplicado; 1 erro meu corrigido antes do apply (newline dentro de string em 2263944713); tela de personagem Guerreiro das Sombras e aviso de seguranca Wi-Fi ad hoc traduzidos; linha de tabs alema mantida exata
+- 0053 (500 entradas) - aplicado; marco de 26.500 entradas (45%); dialogo A Revolutionary Idea (2302679868) traduzido na integra; dialogo do dragao e conselho do produtor traduzidos
+- 0054 (500 entradas) - aplicado; marco de 27.000 entradas (45,8%); conquistas de trajetoria (Portadora da Luz, Cartografa etc) padronizadas; conversas de cauda do Homem-Lagarto traduzidas; 20 pounds convertido
+- 0055 (500 entradas) - aplicado sem rejeicoes; marco de 27.500 entradas (46,7%); abertura da campanha (2373488556-62) e Livro 5 (banquete) traduzidos; falas de Trolls goblinadas mantidas
+- 0056 (500 entradas) - aplicado; 1 erro meu corrigido antes do apply (3 chaves com general.res em vez de global.res); guia Seduzir Aristocratas e casamento adiado traduzidos; sotaque alemao do Ze mantido
+- 0057 (500 entradas) - aplicado sem rejeicoes; marco de 28.500 entradas (48,4%); Livro 3 (Venenos de Ancaria) traduzido na integra; nomes de lugares do mapa padronizados
+- 0058 (500 entradas) - aplicado sem rejeicoes; marco de 29.000 entradas (49,2%); itens de missao em serie (discos de identificacao, jade, pelos) padronizados; grupo d reconstruido casando a ordem do lote apos IDs com sufixo errado
 
 ## Decisões e problemas abertos
 
@@ -71,4 +83,4 @@ decisões, problemas e a próxima etapa.
 
 ## Próxima etapa
 
-Traduzir batch-0059 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22). LOTE 0015 CONCLUIDO (7.500/58.913): o commit da874a3 foi feito com so 375 strings aplicadas; as 125 finais entraram em commit separado.
+Traduzir batch-0059 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).

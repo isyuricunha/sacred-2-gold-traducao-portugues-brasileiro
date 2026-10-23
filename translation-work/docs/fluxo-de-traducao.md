@@ -23,3 +23,10 @@ silêncio. Antes de gravar, confirme que cada âncora existe no arquivo (assert)
 insira a linha nova em posição determinística (logo após a última entrada de lote
 achada por regex). O contador do cabeçalho deve ser conferido contra
 `toolkit.py status`, nunca encadeado de edição em edição.
+
+Nomes de NPCs em série: nunca transcreva hashes de ID à mão. Monte o
+dicionário de tradução por texto EN (`pt_map[EN] = PT`) e derive o ID do
+próprio lote; hashes copiados de listagem anteriores saem com off-by-one.
+Aplique, verifique `accepted/rejected` e o `status`, e só então atualize
+o PROGRESS.md e faça o commit: encadeie os passos com `&&` para que uma
+falha de qualquer etapa interrompa a cadeia.

@@ -89,7 +89,7 @@ decisões, problemas e a próxima etapa.
 - 0074 (500 entradas) - aplicado; marco de 37.000 entradas (62,8%); creditos de Localizacao e Fans de Blind Guardian mantidos; Membros da gangue de Alibaba em serie; grupos cd aplicados apos adicionar entradas genericas faltantes (Portal Cat, Guard, Hare, Inquisitor)
 - 0075 (500 entradas) - aplicado; marco de 37.500 entradas (63,7%); Du Rach em serie, T-Energy Creature, vitimas de Kulghar, Old Stag e Brother Fiandral padronizados
 - 0076 (500 entradas) - aplicado; marco de 38.000 entradas (64,5%); ilha de Natal (Fantasmas do Natal, Fadas Sombrias) e criaturas de cristal padronizadas; entradas avulsas (Ice Hydra, Easter Cult Runner, Seraphim Amicia, Gerund, Servant of the Harbinger of Death, Diaanja/Khormynth, Sister Alesia) adicionadas
-- 0077 (500 entradas) - aplicado; marco de 38.500 entradas (65,4%); Visao geral de Valores de Combate e chef Poul Brotheuse traduzidos; dialogo do black metal e ferido escavador traduzidos
+- 0077 (500 entradas) - aplicado; marco de 38.500 entradas (65,4%); Visao geral de Valores de Combate e chef Poul Brotheuse traduzidos; dialogo do black metal e ferido escavador traduzidos; apóstrofos tipograficos do EN copiados na chave (aprendizado)
 
 ## Decisões e problemas abertos
 

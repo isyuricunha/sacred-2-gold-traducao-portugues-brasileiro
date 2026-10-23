@@ -8,7 +8,7 @@ decisões, problemas e a próxima etapa.
 
 - Geração: 52ac93bbf34f8812a15ea2a3025c5e07c06f4cd7724b114ca6c49539f1c79fdd
 - Corpus: 58.913 entradas, 118 lotes (RES 57.989 + CSVs 924)
-- Traduzido: 33.000/58.913 (56%)
+- Traduzido: 33.500/58.913 (56,9%)
 - Última etapa concluída: lote 0058 aplicado e commitado (29.000/58.913)
 
 ## Lotes concluídos
@@ -79,6 +79,7 @@ decisões, problemas e a próxima etapa.
 - 0064 (500 entradas) - aplicado; marco de 32.000 entradas (54,1% conferida no status: 31.875+125); nomes de NPCs da ilha das Dríades e do casamento traduzidos; desenhos de atores mantidos em EN; hashes de nomes conferidos por casamento EN->id antes do apply; 4 hashes de nomes com off-by-one corrigidos contra a listagem do lote
 - 0065 (500 entradas) - aplicado; marco de 32.500 entradas (55%); nomes de NPCs Orcs/Inquisição/deserto padronizados; Testquestgeber e Testkobold mantidos
 - 0066 (500 entradas) - aplicado; marco de 33.000 entradas (56%); dezenas de nomes de NPCs (salteadores, monges, mito de Fausto) traduzidos; blocos TEST: mantidos exatos
+- 0067 (500 entradas) - aplicado; marco de 33.500 entradas (56,9%); quase todo o lote sao placeholders TEST: mantidos exatos; NPC nomeados (Thelal, Gahanka, Panton, Buddix) traduzidos
 
 ## Decisões e problemas abertos
 
@@ -91,4 +92,4 @@ decisões, problemas e a próxima etapa.
 
 ## Próxima etapa
 
-Traduzir batch-0067 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).
+Traduzir batch-0068 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).

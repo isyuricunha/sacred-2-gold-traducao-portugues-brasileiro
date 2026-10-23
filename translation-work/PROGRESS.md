@@ -8,7 +8,7 @@ decisões, problemas e a próxima etapa.
 
 - Geração: 52ac93bbf34f8812a15ea2a3025c5e07c06f4cd7724b114ca6c49539f1c79fdd
 - Corpus: 58.913 entradas, 118 lotes (RES 57.989 + CSVs 924)
-- Traduzido: 43.000/58.913 (73%)
+- Traduzido: 43.500/58.913 (73,8%)
 - Última etapa concluída: lote 0058 aplicado e commitado (29.000/58.913)
 
 ## Lotes concluídos
@@ -99,6 +99,7 @@ decisões, problemas e a próxima etapa.
 - 0084 (500 entradas) - aplicado; marco de 42.000 entradas (71,3%); dialogo do Goldman/Jana e grilhoes do Brutus completados apos rejeicoes de protecao; 3 rejeicoes corrigidas com apply --replace
 - 0085 (500 entradas) - aplicado; marco de 42.500 entradas (72,1%); apoio da limpeza do acampamento e ritual do Abishai da Discordia traduzidos; guia Súcuba - Criação e Nutrição mantido o livro com aspas tipograficas exatas
 - 0086 (500 entradas) - aplicado; marco de 43.000 entradas (73%); dialogo dos fantoches do Octagolamus e ferido de mao do DeMordrey traduzidos; manual de dicas de multijogador em serie traduzido
+- 0087 (500 entradas) - aplicado; marco de 43.500 entradas (73,8%); diario do mago (Tyrbor 129) e Livro 1 Culinaria Orc traduzidos na integra; mapa das localizacoes da Diaanja em serie
 
 ## Decisões e problemas abertos
 
@@ -111,4 +112,4 @@ decisões, problemas e a próxima etapa.
 
 ## Próxima etapa
 
-Traduzir batch-0087 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).
+Traduzir batch-0088 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).

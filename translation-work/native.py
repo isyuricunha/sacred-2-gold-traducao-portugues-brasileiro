@@ -181,6 +181,10 @@ def validate_translation(record):
     require(isinstance(text, str), f'PTBR must be a string: {record["id"]}')
     if not text:
         return
+    # Whitespace-only EN strings translate to the same whitespace in PTBR.
+    if record['EN'].strip() == '':
+        require(text == record['EN'], f'Whitespace-only EN must translate to identical whitespace: {record["id"]}')
+        return
     require(text.strip(), f'Whitespace-only PTBR: {record["id"]}')
     require(not any(ord(c) < 32 and c not in '\r\n\t' for c in text), 'Forbidden control character')
     require(all(text.count(c) == record['EN'].count(c) for c in '\r\n\t'),

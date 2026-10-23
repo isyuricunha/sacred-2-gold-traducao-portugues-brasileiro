@@ -8,7 +8,7 @@ decisões, problemas e a próxima etapa.
 
 - Geração: 52ac93bbf34f8812a15ea2a3025c5e07c06f4cd7724b114ca6c49539f1c79fdd
 - Corpus: 58.913 entradas, 118 lotes (RES 57.989 + CSVs 924)
-- Traduzido: 38.500/58.913 (65,4%)
+- Traduzido: 39.000/58.913 (66,2%)
 - Última etapa concluída: lote 0058 aplicado e commitado (29.000/58.913)
 
 ## Lotes concluídos
@@ -90,6 +90,7 @@ decisões, problemas e a próxima etapa.
 - 0075 (500 entradas) - aplicado; marco de 37.500 entradas (63,7%); Du Rach em serie, T-Energy Creature, vitimas de Kulghar, Old Stag e Brother Fiandral padronizados
 - 0076 (500 entradas) - aplicado; marco de 38.000 entradas (64,5%); grupo a estava faltando e foi aplicado depois; ilha de Natal (Fantasmas do Natal, Fadas Sombrias) e criaturas de cristal padronizadas; entradas avulsas (Ice Hydra, Easter Cult Runner, Seraphim Amicia, Gerund, Servant of the Harbinger of Death, Diaanja/Khormynth, Sister Alesia) adicionadas
 - 0077 (500 entradas) - aplicado; marco de 38.500 entradas (65,4%); Visao geral de Valores de Combate e chef Poul Brotheuse traduzidos; dialogo do black metal e ferido escavador traduzidos; apóstrofos tipograficos do EN copiados na chave (lookup com canonicalização de apostrofo)
+- 0078 (500 entradas) - aplicado; marco de 39.000 entradas (66,2%); Livro 5 Arqueiraria e Livro 4 Modos a Mesa traduzidos; sao de John Lennon e lapide da sogra
 
 ## Decisões e problemas abertos
 
@@ -102,4 +103,4 @@ decisões, problemas e a próxima etapa.
 
 ## Próxima etapa
 
-Traduzir batch-0078 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).
+Traduzir batch-0079 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).

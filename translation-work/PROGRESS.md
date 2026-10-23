@@ -57,6 +57,7 @@ decisões, problemas e a próxima etapa.
 - 0042 (500 entradas) - aplicado; marco de 21.000 entradas (35,6%); duas frases fracas minhas corrigidas antes do apply (1758516603, 1760529810); Cripta dos Condenados completa traduzida
 - 0043 (500 entradas) - aplicado; texto do Fantasma da cama de 1816309966 mantido em EN (EN igual), sem traducao inventada; Guilhotina do Veredicto traduzida
 - 0044 (500 entradas) - aplicado; marco de 22.000 entradas (37,3%); discurso do bibliotecario e 1895682754 (Dranaigh) traduzidos; fala de Troll mantida goblinizada
+- 0045 (500 entradas) - aplicado; Livro 5 (Kuan) e diario do arqueologo traduzidos; 80 % e 100 por cento convertidos em por cento
 - 0009 (500 entradas) - aplicado sem rejeicoes; fala boba de Troll/Orc goblinizada propositalmente; notas de som <...> copiadas exatas
 
 ## Decisões e problemas abertos
@@ -70,4 +71,4 @@ decisões, problemas e a próxima etapa.
 
 ## Próxima etapa
 
-Traduzir batch-0045 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22). LOTE 0015 CONCLUIDO (7.500/58.913): o commit da874a3 foi feito com so 375 strings aplicadas; as 125 finais entraram em commit separado.
+Traduzir batch-0046 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22). LOTE 0015 CONCLUIDO (7.500/58.913): o commit da874a3 foi feito com so 375 strings aplicadas; as 125 finais entraram em commit separado.

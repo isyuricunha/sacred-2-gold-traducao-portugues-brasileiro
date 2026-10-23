@@ -8,7 +8,7 @@ decisões, problemas e a próxima etapa.
 
 - Geração: 52ac93bbf34f8812a15ea2a3025c5e07c06f4cd7724b114ca6c49539f1c79fdd
 - Corpus: 58.913 entradas, 118 lotes (RES 57.989 + CSVs 924)
-- Traduzido: 32.000/58.913 (54,3%)
+- Traduzido: 32.500/58.913 (55%)
 - Última etapa concluída: lote 0058 aplicado e commitado (29.000/58.913)
 
 ## Lotes concluídos
@@ -77,6 +77,7 @@ decisões, problemas e a próxima etapa.
 - 0062 (500 entradas) - aplicado; marco de 31.000 entradas (52,6%); Livro 3 Bebendo em Ancaria concluido; lapides de easter eggs (42, De nihilo nihil) traduzidas
 - 0063 (500 entradas) - aplicado; marco de 31.500 entradas (53,5%); nomes de NPCs em serie (Badawi e soldadas de Orc) padronizados; 2 grupos com entradas a mais corrigidos por casamento EN->PT antes do apply
 - 0064 (500 entradas) - aplicado; marco de 32.000 entradas (54,1% conferida no status: 31.875+125); nomes de NPCs da ilha das Dríades e do casamento traduzidos; desenhos de atores mantidos em EN; hashes de nomes conferidos por casamento EN->id antes do apply; 4 hashes de nomes com off-by-one corrigidos contra a listagem do lote
+- 0065 (500 entradas) - aplicado; marco de 32.500 entradas (55%); nomes de NPCs Orcs/Inquisição/deserto padronizados; Testquestgeber e Testkobold mantidos
 
 ## Decisões e problemas abertos
 
@@ -89,4 +90,4 @@ decisões, problemas e a próxima etapa.
 
 ## Próxima etapa
 
-Traduzir batch-0065 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).
+Traduzir batch-0066 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).

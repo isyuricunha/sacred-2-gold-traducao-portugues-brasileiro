@@ -8,7 +8,7 @@ decisões, problemas e a próxima etapa.
 
 - Geração: 52ac93bbf34f8812a15ea2a3025c5e07c06f4cd7724b114ca6c49539f1c79fdd
 - Corpus: 58.913 entradas, 118 lotes (RES 57.989 + CSVs 924)
-- Traduzido: 31.000/58.913 (52,6%)
+- Traduzido: 31.500/58.913 (53,5%)
 - Última etapa concluída: lote 0058 aplicado e commitado (29.000/58.913)
 
 ## Lotes concluídos
@@ -75,6 +75,7 @@ decisões, problemas e a próxima etapa.
 - 0060 (500 entradas) - aplicado; marco de 30.000 entradas (50,9%): metade do corpus alcancada; Livro 6 (Ker) traduzido na integra; sobrenome de assassinio e conselho de estepes traduzidos
 - 0061 (500 entradas) - aplicado; 1 rejeicao corrigida (ordem de tags em Cerveja no Livro 3); marco de 30.500 entradas (51,8%); Livro 3 Nor Plat e Livro 3 Bebendo em Ancaria traduzidos na integra; etiqueta de Kobold com reversos mantidos
 - 0062 (500 entradas) - aplicado; marco de 31.000 entradas (52,6%); Livro 3 Bebendo em Ancaria concluido; lapides de easter eggs (42, De nihilo nihil) traduzidas
+- 0063 (500 entradas) - aplicado; marco de 31.500 entradas (53,5%); nomes de NPCs em serie (Badawi e soldadas de Orc) padronizados; 1 grupo com entrada a mais corrigido antes do apply
 
 ## Decisões e problemas abertos
 
@@ -87,4 +88,4 @@ decisões, problemas e a próxima etapa.
 
 ## Próxima etapa
 
-Traduzir batch-0063 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).
+Traduzir batch-0064 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).

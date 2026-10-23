@@ -8,7 +8,7 @@ decisões, problemas e a próxima etapa.
 
 - Geração: 52ac93bbf34f8812a15ea2a3025c5e07c06f4cd7724b114ca6c49539f1c79fdd
 - Corpus: 58.913 entradas, 118 lotes (RES 57.989 + CSVs 924)
-- Traduzido: 46.000/58.913 (78,1%)
+- Traduzido: 46.500/58.913 (78,9%)
 - Última etapa concluída: lote 0058 aplicado e commitado (29.000/58.913)
 
 ## Lotes concluídos
@@ -105,6 +105,7 @@ decisões, problemas e a próxima etapa.
 - 0090 (500 entradas) - aplicado; marco de 45.000 entradas (76,4%); carta do faroleiro e dialogo do enxofre da Serafim traduzidos; caso do 50 % (token printf falso) corrigido com por cento
 - 0091 (500 entradas) - aplicado; marco de 45.500 entradas (77,2%); dialogo de brigas na taverna e caçadora de fantasmas Retilynen traduzidos; demolido do Demiurgo e ritual do Abishai em serie
 - 0092 (500 entradas) - aplicado; marco de 46.000 entradas (78,1%); notas de Kragik (Zumbis Orc) e dialogo do Rumple (facetteleon) traduzidos; diario de trincheira (Dias 9-11) em serie
+- 0093 (500 entradas) - aplicado; marco de 46.500 entradas (78,9%); dialogo dos cangaceiros/deserticos e sessao do espirito de Namiel traduzidos; fabrica de chocolate e OF 3.12-4 em serie
 
 ## Decisões e problemas abertos
 
@@ -117,4 +118,4 @@ decisões, problemas e a próxima etapa.
 
 ## Próxima etapa
 
-Traduzir batch-0093 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).
+Traduzir batch-0094 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).

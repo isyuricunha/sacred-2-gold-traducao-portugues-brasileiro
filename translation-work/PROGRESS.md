@@ -90,7 +90,7 @@ decisões, problemas e a próxima etapa.
 - 0075 (500 entradas) - aplicado; marco de 37.500 entradas (63,7%); Du Rach em serie, T-Energy Creature, vitimas de Kulghar, Old Stag e Brother Fiandral padronizados
 - 0076 (500 entradas) - aplicado; marco de 38.000 entradas (64,5%); grupo a estava faltando e foi aplicado depois; ilha de Natal (Fantasmas do Natal, Fadas Sombrias) e criaturas de cristal padronizadas; entradas avulsas (Ice Hydra, Easter Cult Runner, Seraphim Amicia, Gerund, Servant of the Harbinger of Death, Diaanja/Khormynth, Sister Alesia) adicionadas
 - 0077 (500 entradas) - aplicado; marco de 38.500 entradas (65,4%); Visao geral de Valores de Combate e chef Poul Brotheuse traduzidos; dialogo do black metal e ferido escavador traduzidos; apóstrofos tipograficos do EN copiados na chave (lookup com canonicalização de apostrofo)
-- 0078 (500 entradas) - aplicado; marco de 39.000 entradas (66,2%); Livro 5 Arqueiraria e Livro 4 Modos a Mesa traduzidos; sao de John Lennon e lapide da sogra; grupo cd concluido apos adicionar entradas do pasto
+- 0078 (500 entradas) - aplicado; marco de 39.000 entradas (66,2%); Livro 5 Arqueiraria e Livro 4 Modos a Mesa traduzidos; sao de John Lennon e lapide da sogra; grupos b e cd concluidos apos adicionar entradas faltantes (pasto, cisma)
 
 ## Decisões e problemas abertos
 

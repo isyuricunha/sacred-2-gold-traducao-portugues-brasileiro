@@ -8,7 +8,7 @@ decisões, problemas e a próxima etapa.
 
 - Geração: 52ac93bbf34f8812a15ea2a3025c5e07c06f4cd7724b114ca6c49539f1c79fdd
 - Corpus: 58.913 entradas, 118 lotes (RES 57.989 + CSVs 924)
-- Traduzido: 54.500/58.913 (92,5%)
+- Traduzido: 55.000/58.913 (93,4%)
 - Última etapa concluída: lote 0058 aplicado e commitado (29.000/58.913)
 
 ## Lotes concluídos
@@ -122,6 +122,7 @@ decisões, problemas e a próxima etapa.
 - 0107 (500 entradas) - aplicado; marco de 53.500 entradas (90,8%); sacrficics de sangue de Kuan (dialogo em serie) e caçadora de recompensas (Blackhammer/Ordaurcil) traduzidos
 - 0108 (500 entradas) - aplicado; marco de 54.000 entradas (91,7%); dialogo das plantas da Kybele (paciencia) e da mentora Serafim (Torpedia/Nathalia) completos
 - 0109 (500 entradas) - aplicado; marco de 54.500 entradas (92,5%); lapides de humor (Kunibert o Celular, carne-seca do domador de leoes) e dialogo de imigrantes Orc em serie
+- 0110 (500 entradas) - aplicado; marco de 55.000 entradas (93,4%); 1 rejeicao corrigida (placeholder <You pet Simon's head> mantido exato) com apply --replace
 
 ## Decisões e problemas abertos
 
@@ -134,4 +135,4 @@ decisões, problemas e a próxima etapa.
 
 ## Próxima etapa
 
-Traduzir batch-0110 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).
+Todo o corpus traduzido (118 lotes). Revisao global pendente; depois: check+testes+build+verify-output+package e PTBR.zip. POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).

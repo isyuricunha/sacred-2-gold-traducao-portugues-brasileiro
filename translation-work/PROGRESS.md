@@ -8,7 +8,7 @@ decisões, problemas e a próxima etapa.
 
 - Geração: 52ac93bbf34f8812a15ea2a3025c5e07c06f4cd7724b114ca6c49539f1c79fdd
 - Corpus: 58.913 entradas, 118 lotes (RES 57.989 + CSVs 924)
-- Traduzido: 21.000/58.913
+- Traduzido: 21.500/58.913
 - Última etapa concluída: leitura dos docs; diretrizes e glossário iniciais
 
 ## Lotes concluídos
@@ -55,6 +55,7 @@ decisões, problemas e a próxima etapa.
 - 0040 (500 entradas) - aplicado; marco de 20.000 entradas (34%); Livro 2 (ervas) e Livro Goblinoide traduzidos; percentuais literais convertidos para por cento
 - 0041 (500 entradas) - aplicado; 2 rejeicoes corrigidas (newline meu em Cripta dos Condenados e br faltando); Livro de Goblinoide detalhado e Funerarios Unidos traduzidos
 - 0042 (500 entradas) - aplicado; marco de 21.000 entradas (35,6%); duas frases fracas minhas corrigidas antes do apply (1758516603, 1760529810); Cripta dos Condenados completa traduzida
+- 0043 (500 entradas) - aplicado; texto do Fantasma da cama de 1816309966 mantido em EN (EN igual), sem traducao inventada; Guilhotina do Veredicto traduzida
 - 0009 (500 entradas) - aplicado sem rejeicoes; fala boba de Troll/Orc goblinizada propositalmente; notas de som <...> copiadas exatas
 
 ## Decisões e problemas abertos
@@ -68,4 +69,4 @@ decisões, problemas e a próxima etapa.
 
 ## Próxima etapa
 
-Traduzir batch-0043 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22). LOTE 0015 CONCLUIDO (7.500/58.913): o commit da874a3 foi feito com so 375 strings aplicadas; as 125 finais entraram em commit separado.
+Traduzir batch-0044 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22). LOTE 0015 CONCLUIDO (7.500/58.913): o commit da874a3 foi feito com so 375 strings aplicadas; as 125 finais entraram em commit separado.

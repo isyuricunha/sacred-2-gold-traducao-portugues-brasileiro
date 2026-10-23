@@ -8,7 +8,7 @@ decisões, problemas e a próxima etapa.
 
 - Geração: 52ac93bbf34f8812a15ea2a3025c5e07c06f4cd7724b114ca6c49539f1c79fdd
 - Corpus: 58.913 entradas, 118 lotes (RES 57.989 + CSVs 924)
-- Traduzido: 16.500/58.913
+- Traduzido: 17.000/58.913
 - Última etapa concluída: leitura dos docs; diretrizes e glossário iniciais
 
 ## Lotes concluídos
@@ -46,6 +46,7 @@ decisões, problemas e a próxima etapa.
 - 0031 (500 entradas) - aplicado; 1 rejeicao: cita de Archilochus tinha <br> protegido que eu quebrei em linha a mais; corrigi; oito feet na fala de arvore convertidos para metros e meios (2,5 m)
 - 0032 (500 entradas) - aplicado sem rejeicoes; conjuntos Dimiona/Arbereth/Tallin/Glimborin/Megalcarwen/Mormorin padronizados; marcador de 16.000
 - 0033 (500 entradas) - aplicado; 2 correcoes: chave errada minha (9b/9x, removidas antes do apply) e tag </b> faltando em Memorizar runa; discurso de Sophia versao feminina aplicado
+- 0034 (500 entradas) - aplicado; 1 rejeicao: newline final meu em lembrancas de zumbi; removi; manual da Rainha da Caça (Plano de Cristal) traduzido; 9 feet -> ~3 m na planta Phylitos
 - 0009 (500 entradas) - aplicado sem rejeicoes; fala boba de Troll/Orc goblinizada propositalmente; notas de som <...> copiadas exatas
 
 ## Decisões e problemas abertos
@@ -59,4 +60,4 @@ decisões, problemas e a próxima etapa.
 
 ## Próxima etapa
 
-Traduzir batch-0034 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22). LOTE 0015 CONCLUIDO (7.500/58.913): o commit da874a3 foi feito com so 375 strings aplicadas; as 125 finais entraram em commit separado.
+Traduzir batch-0035 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22). LOTE 0015 CONCLUIDO (7.500/58.913): o commit da874a3 foi feito com so 375 strings aplicadas; as 125 finais entraram em commit separado.

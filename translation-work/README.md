@@ -107,7 +107,17 @@ a próxima operação mutável restaura os alvos anteriores antes de continuar.
 ```sh
 python translation-work/toolkit.py recover
 python translation-work/toolkit.py rollback --snapshot ID_DE_TRANSACAO
+python translation-work/toolkit.py gc --dry-run
+python translation-work/toolkit.py gc
 ```
+
+### Eficiência e retenção das transações
+
+Em aplicações parciais, a toolkit agora **substitui e mantém para rollback apenas os JSONL realmente alterados**; o manifesto e todos os lotes intactos conservam os mesmos bytes e mtimes. Operações de sincronização de originais e geração final podem afetar outras árvores, conforme seus arquivos reais.
+
+Após uma transação concluída e verificada, a limpeza automática mantém até **10 snapshots finalizados** e **512 MiB** no total. `gc --dry-run` mostra o que pode ser recuperado sem apagar nada; `gc` remove apenas snapshots concluídos além da retenção, sob lock. Uma transação interrompida, sem recibo ou dependente de journal **não é descartada**. Quando existir journal, recupere antes de usar `gc`.
+
+Os snapshots locais são recuperação rápida de operações recentes, **não um histórico ilimitado**. Para recuperar estados mais antigos, utilize as versões commitadas dos JSONL e fontes no Git, verificando antes se esses commits já foram enviados aos remotes. A limpeza não modifica EN, PTBR, traduções ativas, glossário ou arquivos do jogo.
 
 Snapshots ficam em `.state/transactions/ID/old`, com `receipt.json`. Rollback
 recusa sobrescrever progresso posterior e cria outro snapshot recuperável.

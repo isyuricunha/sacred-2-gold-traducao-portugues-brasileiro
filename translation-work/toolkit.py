@@ -5,6 +5,7 @@ import contextlib
 import hashlib
 import json
 import os
+import re
 from pathlib import Path, PurePosixPath
 import shutil
 import sys
@@ -21,6 +22,8 @@ REPORTS = WORK + 'reports'
 BUILD = WORK + 'build-manifest.json'
 STATE = WORK + '.state'
 SCHEMA = 1
+TX_RETENTION_COUNT = 10
+TX_RETENTION_BYTES = 512 * 1024 * 1024
 
 
 def blob(value):
@@ -220,7 +223,82 @@ class Project:
             require(self.tree_digest(self.path(rel)) == j['after'][rel], 'Promotion mismatch; run recover')
         atomic_json(base / 'receipt.json', j)
         self.path(STATE + '/journal.json').unlink()
+        # Cleanup happens only after the transaction has completed durably.
+        # A cleanup failure cannot roll back or misreport a successful write.
+        try:
+            self.gc()
+        except (OSError, ValueError) as error:
+            print(f'Warning: transaction {tx} committed; retention cleanup deferred: {error}', file=sys.stderr)
         return tx
+
+
+    def gc(self, dry_run=False, keep_count=TX_RETENTION_COUNT, max_bytes=TX_RETENTION_BYTES):
+        """Bound completed rollback history without touching pending recovery."""
+        require(not self.interrupted(), 'Cannot prune an interrupted transaction; recover first')
+        require(keep_count >= 1 and max_bytes > 0, 'Invalid retention limits')
+        root = self.path(STATE + '/transactions')
+        if not root.exists():
+            return dict(status='dry-run' if dry_run else 'clean', kept=0,
+                        removed=0, reclaimed_bytes=0, protected=0, total_bytes=0)
+        require(root.is_dir() and not root.is_symlink(), 'Unsafe transaction storage')
+        completed, protected = [], []
+        for item in root.iterdir():
+            require(re.fullmatch(r'[0-9a-f]{32}', item.name) and item.is_dir()
+                    and not item.is_symlink(), 'Unexpected transaction entry')
+            receipt = item / 'receipt.json'
+            if not receipt.exists():
+                # Staging from a failed pre-journal operation is never a
+                # completed snapshot. Do not automatically destroy it.
+                protected.append(item.name)
+                continue
+            require(receipt.is_file() and not receipt.is_symlink(), 'Unsafe transaction receipt')
+            info = read_json(receipt)
+            require(isinstance(info, dict)
+                    and set(info) == {'transaction', 'targets', 'before', 'after'}
+                    and info['transaction'] == item.name
+                    and isinstance(info['targets'], list) and bool(info['targets'])
+                    and len(info['targets']) == len(set(info['targets']))
+                    and isinstance(info['before'], dict) and isinstance(info['after'], dict)
+                    and set(info['before']) == set(info['after']) == set(info['targets']),
+                    f'Invalid transaction receipt: {item.name}')
+            # First validate ALL entries before removing ANY snapshots.
+            size = 0
+            for parent, dirs, names in os.walk(item, followlinks=False):
+                for name in dirs + names:
+                    entry = Path(parent) / name
+                    require(not entry.is_symlink() and not
+                            (hasattr(entry, 'is_junction') and entry.is_junction()),
+                            f'Unsafe snapshot path: {entry}')
+                for name in names:
+                    entry = Path(parent) / name
+                    require(entry.is_file(), f'Unsafe snapshot file: {entry}')
+                    size += entry.stat().st_size
+            completed.append((receipt.stat().st_mtime_ns, item.name, item, size))
+        completed.sort(reverse=True)
+        kept, removable, used = [], [], 0
+        for record in completed:
+            if len(kept) < keep_count and used + record[3] <= max_bytes:
+                kept.append(record)
+                used += record[3]
+            else:
+                removable.append(record)
+        # Keep the latest completed rollback even if it exceeds the budget.
+        require(not completed or (kept and kept[0] == completed[0]),
+                'Newest transaction exceeds snapshot byte budget; adjust retention')
+        reclaimed = sum(row[3] for row in removable)
+        if not dry_run:
+            # CLI holds the operation lock; transaction() calls this before
+            # releasing that same lock. Never auto-delete unreceipted staging.
+            for _, name, item, _ in removable:
+                require(not self.interrupted(), 'Interrupted transaction journal appeared')
+                require(item.is_dir() and not item.is_symlink()
+                        and (item / 'receipt.json').is_file(), 'Snapshot changed during prune')
+                shutil.rmtree(item)
+        return dict(status='dry-run' if dry_run else 'clean',
+                    kept=len(kept), removed=len(removable), reclaimed_bytes=reclaimed,
+                    total_bytes=sum(row[3] for row in completed),
+                    kept_bytes=used, protected=len(protected),
+                    retention_count=keep_count, retention_bytes=max_bytes)
 
     def load(self, allow_en_changed=False):
         require(not self.interrupted(), 'Interrupted transaction: run toolkit.py recover before reading state')
@@ -371,7 +449,8 @@ class Project:
         require(payload['generation'] == manifest['generation'], 'Wrong source generation')
         require(isinstance(payload['entries'], list), 'entries must be an array')
         by_id = {r['id']: r for rows in batches.values() for r in rows}
-        seen, accepted, rejected = set(), [], []
+        batch_by_id = {r['id']: name for name, rows in batches.items() for r in rows}
+        seen, accepted, rejected, dirty_batches = set(), [], [], set()
         # Identity errors invalidate the complete payload before accepting partial text updates.
         for item in payload['entries']:
             require(set(item) == {'id', 'source_fingerprint', 'PTBR'}, 'Only ID, fingerprint and PTBR may be supplied')
@@ -390,13 +469,19 @@ class Project:
                         old.setdefault('history', []).append(dict(generation=manifest['generation'], EN=old['EN'], PTBR=old['PTBR']))
                     old['PTBR'] = item['PTBR']
                     accepted.append(item['id'])
+                    dirty_batches.add(batch_by_id[item['id']])
             except (ValueError, UnicodeError) as error:
                 rejected.append({'id': item['id'], 'reason': str(error)})
         if accepted:
-            files = {TRANSLATIONS + '/manifest.json': blob(manifest)}
-            for name, rows in batches.items():
-                files[TRANSLATIONS + '/' + name] = b''.join((json.dumps(r, ensure_ascii=False, sort_keys=True) + '\n').encode('utf8') for r in rows)
-            self.transaction(files, [TRANSLATIONS], expected)
+            # This is a file-level transaction, not a full translations/ tree.
+            # The immutable source manifest and all untouched JSONL batches
+            # keep their exact bytes and modification times.
+            files = {}
+            for name in sorted(dirty_batches):
+                files[TRANSLATIONS + '/' + name] = b''.join(
+                    (json.dumps(r, ensure_ascii=False, sort_keys=True) + '\n').encode('utf8')
+                    for r in batches[name])
+            self.transaction(files, sorted(files), expected)
         return dict(accepted=accepted, rejected=rejected, status='partial' if rejected else 'ok')
 
     def status(self):
@@ -537,7 +622,7 @@ def main(argv=None):
             stream.reconfigure(encoding='utf-8')
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('command', choices=['extract', 'sync', 'update-sources', 'check', 'diff', 'status',
-                                          'apply', 'build', 'verify-output', 'package', 'recover', 'rollback'])
+                                          'apply', 'build', 'verify-output', 'package', 'recover', 'rollback', 'gc'])
     parser.add_argument('--source-root')
     parser.add_argument('--source-file')
     parser.add_argument('--game-root')
@@ -553,10 +638,10 @@ def main(argv=None):
         require(sum(bool(v) for v in (args.source_root, args.source_file, args.game_root)) <= 1, 'Choose a single source input')
         require(not (args.source_root or args.source_file or args.game_root or args.approve_source)
                 or args.command in ('extract', 'sync', 'update-sources', 'diff'), 'Source flags do not apply to this command')
-        require(not args.dry_run or args.command in ('extract', 'sync', 'update-sources', 'diff'), '--dry-run is a source-operation flag')
+        require(not args.dry_run or args.command in ('extract', 'sync', 'update-sources', 'diff', 'gc'), '--dry-run requires a source command or gc')
         require(not args.replace or args.command == 'apply', '--replace is only supported by apply')
         require(not args.payload or args.command == 'apply', '--payload is only supported by apply')
-        mutates = args.command in ('extract', 'sync', 'update-sources', 'apply', 'build', 'package', 'recover', 'rollback') and not args.dry_run
+        mutates = args.command in ('extract', 'sync', 'update-sources', 'apply', 'build', 'package', 'recover', 'rollback', 'gc') and not args.dry_run
         with project.lock() if mutates else contextlib.nullcontext():
             if project.interrupted() and mutates and args.command != 'recover':
                 project.recover()
@@ -583,6 +668,8 @@ def main(argv=None):
                 result = project.package()
             elif args.command == 'recover':
                 result = project.recover()
+            elif args.command == 'gc':
+                result = project.gc(dry_run=args.dry_run)
             else:
                 require(args.snapshot and len(args.snapshot) == 32 and all(c in '0123456789abcdef' for c in args.snapshot), 'rollback requires --snapshot TRANSACTION_ID')
                 base = project.path(STATE + '/transactions/' + args.snapshot)

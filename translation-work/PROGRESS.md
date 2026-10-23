@@ -8,7 +8,7 @@ decisões, problemas e a próxima etapa.
 
 - Geração: 52ac93bbf34f8812a15ea2a3025c5e07c06f4cd7724b114ca6c49539f1c79fdd
 - Corpus: 58.913 entradas, 118 lotes (RES 57.989 + CSVs 924)
-- Traduzido: 52.000/58.913 (88,3%)
+- Traduzido: 52.500/58.913 (89,1%)
 - Última etapa concluída: lote 0058 aplicado e commitado (29.000/58.913)
 
 ## Lotes concluídos
@@ -117,6 +117,7 @@ decisões, problemas e a próxima etapa.
 - 0102 (500 entradas) - aplicado; marco de 51.000 entradas (86,6%); Livro 4 Magia de Veneno e variante Caça (com paragrafos finais) traduzidos na integra; dialogo Fellir/rata sagrada e Orc para Iniciantes completos
 - 0103 (500 entradas) - aplicado; marco de 51.500 entradas (87,4%); Livro 2 Espadas e Livro 2 Artamark (guia de viagem) traduzidos na integra; dialogo da esposa do Ullukai (dor de dente) e regras de brawlerball completos
 - 0104 (500 entradas) - aplicado; marco de 52.000 entradas (88,3%); monologo das maes sobrecarregadas (Kuan) em serie; dialogo da eleicao da rainha da floresta e heroinas sombrias vs dragao completos
+- 0105 (500 entradas) - aplicado; marco de 52.500 entradas (89,1%); entrada mitologica integral de Kali (deusa do Mal) traduzida; Y Oldah (poema do kobold nobre) e Nathalia (pingentes de gelo) completos
 
 ## Decisões e problemas abertos
 
@@ -129,4 +130,4 @@ decisões, problemas e a próxima etapa.
 
 ## Próxima etapa
 
-Traduzir batch-0105 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).
+Traduzir batch-0106 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).

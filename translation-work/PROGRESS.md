@@ -73,7 +73,7 @@ decisões, problemas e a próxima etapa.
 - 0058 (500 entradas) - aplicado sem rejeicoes; marco de 29.000 entradas (49,2%); itens de missao em serie (discos de identificacao, jade, pelos) padronizados; grupo d reconstruido casando a ordem do lote apos IDs com sufixo errado
 - 0059 (500 entradas) - aplicado sem rejeicoes; itens de missao em serie em massa (400+ nomes de item); par com chaves falsas reconstruido casando a ordem do lote
 - 0060 (500 entradas) - aplicado; marco de 30.000 entradas (50,9%): metade do corpus alcancada; Livro 6 (Ker) traduzido na integra; sobrenome de assassinio e conselho de estepes traduzidos
-- 0061 (500 entradas) - aplicado; marco de 30.500 entradas (51,8%); Livro 3 Nor Plat e Livro 3 Bebendo em Ancaria traduzidos na integra; etiqueta de Kobold com reversos mantidos
+- 0061 (500 entradas) - aplicado; 1 rejeicao corrigida (ordem de tags em Cerveja no Livro 3); marco de 30.500 entradas (51,8%); Livro 3 Nor Plat e Livro 3 Bebendo em Ancaria traduzidos na integra; etiqueta de Kobold com reversos mantidos
 
 ## Decisões e problemas abertos
 

@@ -8,7 +8,7 @@ decisões, problemas e a próxima etapa.
 
 - Geração: 52ac93bbf34f8812a15ea2a3025c5e07c06f4cd7724b114ca6c49539f1c79fdd
 - Corpus: 58.913 entradas, 118 lotes (RES 57.989 + CSVs 924)
-- Traduzido: 19.500/58.913
+- Traduzido: 20.000/58.913
 - Última etapa concluída: leitura dos docs; diretrizes e glossário iniciais
 
 ## Lotes concluídos
@@ -52,6 +52,7 @@ decisões, problemas e a próxima etapa.
 - 0037 (500 entradas) - aplicado; 1 correcao de redacao propria (1517408408); saga do Beltorak e entrada de Lumen traduzidas
 - 0038 (500 entradas) - aplicado sem rejeicoes; marco de 19.000 entradas; tirano discursa do 339 feminizado
 - 0039 (500 entradas) - aplicado; grupo a ficou com 100 entradas na primeira escrita (25 faltavam), completado antes do apply; Livro 6 (Magia Proibida) e Livro 4 Lumen traduzidos
+- 0040 (500 entradas) - aplicado; marco de 20.000 entradas (34%); Livro 2 (ervas) e Livro Goblinoide traduzidos; percentuais literais convertidos para por cento
 - 0009 (500 entradas) - aplicado sem rejeicoes; fala boba de Troll/Orc goblinizada propositalmente; notas de som <...> copiadas exatas
 
 ## Decisões e problemas abertos
@@ -65,4 +66,4 @@ decisões, problemas e a próxima etapa.
 
 ## Próxima etapa
 
-Traduzir batch-0040 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22). LOTE 0015 CONCLUIDO (7.500/58.913): o commit da874a3 foi feito com so 375 strings aplicadas; as 125 finais entraram em commit separado.
+Traduzir batch-0041 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22). LOTE 0015 CONCLUIDO (7.500/58.913): o commit da874a3 foi feito com so 375 strings aplicadas; as 125 finais entraram em commit separado.

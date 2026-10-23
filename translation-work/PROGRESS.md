@@ -8,7 +8,7 @@ decisões, problemas e a próxima etapa.
 
 - Geração: 52ac93bbf34f8812a15ea2a3025c5e07c06f4cd7724b114ca6c49539f1c79fdd
 - Corpus: 58.913 entradas, 118 lotes (RES 57.989 + CSVs 924)
-- Traduzido: 34.500/58.913 (58,5%)
+- Traduzido: 35.000/58.913 (59,4%)
 - Última etapa concluída: lote 0058 aplicado e commitado (29.000/58.913)
 
 ## Lotes concluídos
@@ -82,6 +82,7 @@ decisões, problemas e a próxima etapa.
 - 0067 (500 entradas) - aplicado; marco de 33.500 entradas (56,9%); quase todo o lote sao placeholders TEST: mantidos exatos; NPC nomeados (Thelal, Gahanka, Panton, Buddix) traduzidos
 - 0068 (500 entradas) - aplicado; marco de 34.000 entradas (57,7%); nomes de NPCs (refugiados, nômades, casamento de Isadora) traduzidos; placeholders de animacao mantidos
 - 0069 (500 entradas) - aplicado; marco de 34.500 entradas (58,5%); NPC nomes de aranhas/culto/Cruzada Impia/Clãs Orc padronizados; AMENDMENT: grupo b do lote 0059 (125 itens) estava faltando e foi aplicado agora; contagem conferida por contagem direta dos JSONL
+- 0070 (500 entradas) - aplicado; marco de 35.000 entradas (59,4%); nomes de NPCs (clãs Nur-Trak, trolls da montanha, camarada de comercio) padronizados
 
 ## Decisões e problemas abertos
 
@@ -94,4 +95,4 @@ decisões, problemas e a próxima etapa.
 
 ## Próxima etapa
 
-Traduzir batch-0070 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).
+Traduzir batch-0071 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).

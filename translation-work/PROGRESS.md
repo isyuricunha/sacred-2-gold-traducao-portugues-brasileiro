@@ -8,7 +8,7 @@ decisões, problemas e a próxima etapa.
 
 - Geração: 52ac93bbf34f8812a15ea2a3025c5e07c06f4cd7724b114ca6c49539f1c79fdd
 - Corpus: 58.913 entradas, 118 lotes (RES 57.989 + CSVs 924)
-- Traduzido: 39.500/58.913 (67%)
+- Traduzido: 40.000/58.913 (67,9%)
 - Última etapa concluída: lote 0058 aplicado e commitado (29.000/58.913)
 
 ## Lotes concluídos
@@ -92,6 +92,7 @@ decisões, problemas e a próxima etapa.
 - 0077 (500 entradas) - aplicado; marco de 38.500 entradas (65,4%); Visao geral de Valores de Combate e chef Poul Brotheuse traduzidos; dialogo do black metal e ferido escavador traduzidos; apóstrofos tipograficos do EN copiados na chave (lookup com canonicalização de apostrofo)
 - 0078 (500 entradas) - aplicado; marco de 39.000 entradas (66,2%); Livro 5 Arqueiraria e Livro 4 Modos a Mesa traduzidos; sao de John Lennon e lapide da sogra; grupos b e cd concluidos apos adicionar entradas faltantes (pasto, cisma)
 - 0079 (500 entradas) - aplicado; marco de 39.500 entradas (67%); menu do Hearth (Musse au Salive) e rito da Grande Rata traduzidos; artes da Inquisidora em serie padronizadas
+- 0080 (500 entradas) - aplicado; marco de 40.000 entradas (67,9%); Livro 2 Magia de Fogo e Livro 6 T-Energia traduzidos na integra; dialogo de fantasmas do fogo (Antonio Bloise) traduzido
 
 ## Decisões e problemas abertos
 
@@ -104,4 +105,4 @@ decisões, problemas e a próxima etapa.
 
 ## Próxima etapa
 
-Traduzir batch-0080 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).
+Traduzir batch-0081 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).

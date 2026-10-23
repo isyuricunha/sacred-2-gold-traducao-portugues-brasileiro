@@ -87,7 +87,7 @@ decisões, problemas e a próxima etapa.
 - 0072 (500 entradas) - aplicado; marco de 36.000 entradas (61,1%); creditos reais da equipe mantidos; dialogo do amuleto de joias e sacerdote Sem-Nome traduzidos
 - 0073 (500 entradas) - aplicado; marco de 36.500 entradas (62%); negociadores, Guardas do Templo vintage (DX4/PIII) e sacerdotes por divindade padronizados; grupos cd aplicados apos corrigir entradas faltantes (Slave Theodus, Theodore)
 - 0074 (500 entradas) - aplicado; marco de 37.000 entradas (62,8%); creditos de Localizacao e Fans de Blind Guardian mantidos; Membros da gangue de Alibaba em serie; grupos cd aplicados apos adicionar entradas genericas faltantes (Portal Cat, Guard, Hare, Inquisitor)
-- 0075 (500 entradas) - aplicado; marco de 37.500 entradas (63,7%); Du Rach em serie, T-Energy Creature, vitimas de Kulghar e Old Stag padronizados
+- 0075 (500 entradas) - aplicado; marco de 37.500 entradas (63,7%); Du Rach em serie, T-Energy Creature, vitimas de Kulghar, Old Stag e Brother Fiandral padronizados
 
 ## Decisões e problemas abertos
 

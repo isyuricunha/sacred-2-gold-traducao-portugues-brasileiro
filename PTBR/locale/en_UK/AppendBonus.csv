@@ -1,0 +1,54 @@
+hasGender=false;
+NAME_BON_DMG_PHY;de Ferida;de Lesão;de Dor;de Tormento;de Agonia
+NAME_BON_DMG_FIRE;da Salamandra;de Brasas;do Hálito de Dragão;do Lampejo;da Lava
+NAME_BON_DMG_ICE;da Geleira;Glacial;Estilhaço de Gelo;Carregado de Geada;Gélido
+NAME_BON_DMG_POISON;Venenoso;Peçonhento;Presa de Aranha;Miasmático;Putrido
+NAME_BON_DMG_ARCANE;Arcano;Glifado;Rúnico;Místico;do Elementalista
+NAME_BON_DEF_PHY;do Arconte;Muralha;Tatu;Carapaça;Casco-Cápsula
+NAME_BON_DEF_FIRE;Forjado em Lava;Beijado pelas Chamas;Iceberg;Guarda do Fogo;Cozido na Bigorna
+NAME_BON_DEF_ICE;Escarchado;Fundido em Gelo;Imolação;Guarda do Gelo;Gelado na Bigorna
+NAME_BON_DEF_POISON;do Boticário;Ungido;Imbuido;Infundido;do Ervanário
+NAME_BON_DEF_ARCANE;Adornado;Empíreo;Ornamentado;Ancestral;Celestial
+NAME_BON_ENEMY_WEAK;do Profanador;do Infiltrador;Intrusão;do Mirmidão;do Saqueador
+NAME_BON_POWER;Potencializador;do Letrista;Bárdico;do Ilusionista;do Embaucador
+NAME_BON_DISARM;Livramento;do Vigilante;Pacifismo;do Árbitro;do Sentinela
+NAME_BON_PUSH;Marcado;Espancador;Arremesso;do Guardião;Dramático
+NAME_BON_OFFENSIVE;do Vindicador;do Matador de Demônios;do Matador de Dragões;Manchado de Sangue;Horrível
+NAME_BON_DEFENSIVE;Abençoado;Quitinoso;Consagrado;do Guardião;Resistente
+NAME_BON_LEECH;do Vampiro;Drenador;Caliginoso;Estilhaço de Alma;Sepulcro
+NAME_BON_CRITICAL;Esmerado;da Assassina;do Golpista;Fúria Funesta;Trama de Dor
+NAME_BON_EXTRA_DMG;Farpado;do Executor;Imposto;Ira;Fúria Carmesim
+NAME_BON_STRENGTH;do Berserker;Bárbaro;Troll;Gigante;Behemoth
+NAME_BON_DEXTERITY;do Malabarista;do Macaco;do Bobo da Corte;do Caçador;do Batedor
+NAME_BON_VITALITY;Iridescente;Vibrante;Deslumbrante;Opalescente;Luminescente
+NAME_BON_WILLPOWER;Real;Soberano;do Fanático;do Mártir;Mentalista
+NAME_BON_INTELIGENCE;Doutoral;do Sábio;do Emissário;do Profeta;do Visionário
+NAME_BON_SPEED;Sombra;Redemoinho de Poeira;do Cavaleiro do Vento;Tempestade; Furacão
+NAME_BON_STAMINA;do Acossador;Espreita;do Predador;Profundezas do Inferno;Profundezas Interiores
+NAME_BON_SERA_CA;da Serafim;;;;
+NAME_BON_INQ_CA;da Inquisidora;;;;
+NAME_BON_HELVE_CA;do Alto Elfo;;;;
+NAME_BON_SWARR_CA;do Guerreiro das Sombras;;;;
+NAME_BON_DRYAD_CA;da Dríade;;;;
+NAME_BON_TGUARD_CA;da Guardiã do Templo;;;;
+NAME_BON_GOD_CA;Divino;;;;
+NAME_BON_INC_ATT;Aumentado;Ancariano;Elevado;Elaborado;Exaltado
+NAME_BON_REG_ENERGY;Energia;Incandescente;Cintilante;Efulgente;Cintilante
+NAME_BON_REG_HEALTH;Primordial;Vitalizador;da Vivificação;da Gênese;da Sobrevivência
+NAME_BON_RESISTANCE;da Resistência;do Impedimento;da Imunidade;do Fungo;dos Elementos
+NAME_BON_ARMOR;da Fortificação;do Reforço;da Campeã;da Muralha;da Tartaruga
+NAME_BON_REFLECT;do Espelho;do Reflexo;da Retaliação;da Petrificação;do Basilisco
+NAME_BON_RESISTANCE;;;;;
+NAME_BON_HORSEMAN;do Cavaleiro;da Sela;do Cavaleiro Galante;da Cavalaria;dos Estábulos
+NAME_BON_GOLD;da Riqueza;das Moedas;dos Tesouros;da Abundância;da Prosperidade
+NAME_BON_DEALER;da Negociação;do Regateio;do Lucro;da Cotovia;do Carisma
+NAME_BON_SMITH;do Ferreiro;da Forja;da Bigorna;das Tenazes;dos Lingotes
+NAME_BON_DROP;da Sorte;do Colecionador;da Fortuna;da Ganância;do Benefício
+NAME_BON_POTION;da Alquimia;da Mistura;dos Reagentes;da Cigana;do Elixir
+NAME_BON_TEAM;do Rebanho;da Aliança;dos Irmãos de Armas;da Tripulação;do Esquadrão
+NAME_BON_PVP;da Confrontação;do Encontro;da Escaramuça;do Conflito;do Combate
+NAME_BON_SIGHT;do Olho de Águia;da Revelação;do Falcão;da Veracidade;da Lucidez
+NAME_BON_UNQ_FIGHT;do Conhecimento Antigo;das Lendas;dos Mitos;da Cripta;dos Antepassados
+NAME_BON_MAGIC_EFFECT;do Inesperado;da Mudança;do Imprevisível;do Cataclismo;do Espanto
+NAME_BON_CAST_RELEASE;do Desencadeamento;do Trançar de Feitiços;da Descarga;da Erupção;da Onda
+NAME_BON_WPN_LORE;do Mestre de Armas;do Saber de Armas;da Guarda;do Homem de Armas;do Mercenário

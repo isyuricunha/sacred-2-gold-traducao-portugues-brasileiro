@@ -1,0 +1,27 @@
+hasGender=false;
+NAME_MAT_TATTOO;do Samurai;das Tatuagens;do Simbolismo;dos Emblemas
+NAME_MAT_CLOTH;do Alfaiate;do Tecelão;do Linho;da Seda
+NAME_MAT_CLOTH_ARCANE;do Pano Arcano;da Trama de Mago;do Veludo;do Cetim
+NAME_MAT_LEATHER;do Couro;das Peles;do Curtidor;de Pele de Ovelha
+NAME_MAT_LEATHER_REPTILE;das Escamas Reptilianas;de Pele de Cobra;de Pele de Réptil;da Membrana Reptiliana
+NAME_MAT_LEATHER_DRAGON;do Couro de Dragão;da Pele de Dragão;do Couro de Dragão;da Crosta de Dragão
+NAME_MAT_FUR;de Pele de Urso;da Pelagem;do Pelo;das Peles
+NAME_MAT_CERAMICS;da Cerâmica;da Louça;do Barro;do Scarthin
+NAME_MAT_BONE;dos Ossos;do Esqueleto;das Vértebras;da Espinha
+NAME_MAT_IRON;do Ferro;do Ferrum;do Ferreus;do Férreo
+NAME_MAT_STEEL;do Aço Polido;do Aço Puro;do Aço Fortificado;do Aço Reforçado
+NAME_MAT_STEEL_ELVE;do Aço Elveno;do Aço Cristalizado;do Aço de Mago;do Aço Antigo
+NAME_MAT_SCALE_DRAGON;das Escamas de Dragão;das Placas de Dragão;dos Rebites de Dragão;dos Flocos de Dragão
+NAME_MAT_WOOD;da Madeira;do Madeiramento;da Lenha;do Bosque
+NAME_MAT_WOOD_MAGIC;do Carvalho;do Ébano;do Abeto Prateado;do Pau-rosa
+NAME_MAT_STONE;da Pedra;das Rochas;dos Matacões;da Rocha-Mãe
+NAME_MAT_CRYSTAL;do Cristal;do Cristal Estelar;do Cristal do Céu;do Cristal Vulcânico
+NAME_MAT_LIQUID;do Líquido;do Fluido;da Aqua;do Solvente
+NAME_MAT_PAPER;do Papel;dos Pergaminhos;do Pergaminho;do Velino
+NAME_MAT_COPPER;do Cobre;do Cobre Curtido;do Cobre Ruivo;do Cobre ao Sol
+NAME_MAT_SILVER;da Prata;do Argento;da Prata Perolada;da Prata Branca
+NAME_MAT_GOLD;do Ouro;do Ouro Beijado pelo Sol;do Ouro Puro;do Ouro Misto
+NAME_MAT_PLATIN;da Platina;da Platina da Neve;da Platina Descolorada;da Platina da Lua
+NAME_MAT_ENERGY;da Energia;das Almas;da Essência Ancariana;da Vida Primordial
+NAME_MAT_ILLUSION;das Ilusões;dos Espectros;das Miragens;das Aparições
+NAME_MAT_MAX;

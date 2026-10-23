@@ -1,0 +1,34 @@
+{
+  "completed": 58913,
+  "generation": "52ac93bbf34f8812a15ea2a3025c5e07c06f4cd7724b114ca6c49539f1c79fdd",
+  "native_validation": "parse-rebuild-parse-all-records",
+  "outputs": {
+    "locale/en_UK/AppendBonus.csv": "f1567643666dcfc03b8d39abbfeed1b0bac761c0fd9627b2a9e9c8eee451ef63",
+    "locale/en_UK/AppendMaterial.csv": "064f6c4afbca1a563ec9a97d55226d9e8666b4be075e8afeab7c70e48d0dc517",
+    "locale/en_UK/AppendRare.csv": "a11f29c8bacbec123e019bfe28c97da7adf79e4ebc8be49ce775be68d15427ff",
+    "locale/en_UK/DescriptionBonus.csv": "129fc768119240333de94ac18e69e0c1fb709d8dc473e367de246be4c6f8dce0",
+    "locale/en_UK/DescriptionMaterial.csv": "474e1de3958e1b6e9a2f1311e467639aa7bbfe97ddea2870b08cf250028d54c7",
+    "locale/en_UK/DescriptionRare.csv": "349301cef6143d27ed27a34ed30cf44bf4d104ec5f021d77e4fb81e67fc68a38",
+    "locale/en_UK/Itemnames.csv": "91868edde339b20d117ba435a9805343662c44d86b85a9e2b4af358d7d4781a3",
+    "locale/en_UK/Optional.csv": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "locale/en_UK/global.res": "54e34bef11d5359277e44541edfe8ae2b84de469af8f0e55944a6c36b9ba94e2"
+  },
+  "pending": 0,
+  "producer": "sacred2-toolkit-build-v1",
+  "receipt_hash": "c6a8f108713082774e4bb470f5fabdddc6fbf541cd4bb780e8486634df56f6a9",
+  "records": 58913,
+  "schema": 1,
+  "sources": {
+    "locale/en_UK/AppendBonus.csv": "f477643466275d4caef4f59625d388ce0867c48769f0633dde4d878548844362",
+    "locale/en_UK/AppendMaterial.csv": "072e0ce56b8af27eaa357c3cd764f4cda401c65a1597233730b19025fca7f35a",
+    "locale/en_UK/AppendRare.csv": "b93c544c10e7cd0f229b5c46e3a5b348704a615db08d71798ba33395b2b60dca",
+    "locale/en_UK/DescriptionBonus.csv": "993107e1d13a491e16884f8ff85e31a17109d5d70094917968b369e120a2cb2e",
+    "locale/en_UK/DescriptionMaterial.csv": "22ee3ba60cd21c82c03fac7220aa6165137a9f0b8602d23a13001c18db622409",
+    "locale/en_UK/DescriptionRare.csv": "8603f94ff625dd1075c1a606ae8c43e13ef8ffbac91bebf1b8290094efa6db80",
+    "locale/en_UK/Itemnames.csv": "86b5e7ad5c7f3b26f6fba7c53dd8f657fa41f72b2f09dca50b0b722ab77c38da",
+    "locale/en_UK/Optional.csv": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "locale/en_UK/global.res": "afee8682f32faacb0f8c6492d45cbd0965579c1e08b136a8dbc3a2ed18a1eb9d"
+  },
+  "tooling": "292526ee83a562cd32c31d720708b4397b8dcf4bbca5e0c48c8bac90446499c0",
+  "translation_fingerprint": "543e6d4f2564dc11cfee22093740971c628610a9dbb2bbc78bab454c32dcf1e3"
+}

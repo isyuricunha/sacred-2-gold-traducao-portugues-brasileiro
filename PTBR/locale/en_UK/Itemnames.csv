@@ -1,0 +1,72 @@
+NGCLF_2H_AXE;Machado Grande,1;Machado de Batalha,1;Machado de Guerra,1
+NGCLF_2H_HAMMER;Marreta Grande,1;Malho,1;Martelo de Guerra,1
+NGCLF_2H_SWORD;Espada Grande,1;Flamberge,1;Lâmina de Guerra,1
+NGCLF_AMULET;Amuleto,1;Pingente,1;Talismã,1
+NGCLF_AXE;Machado,1;Machadinha,1;Cutelo,1
+NGCLF_BASTARDSWORD;Espada Bastarda,1;Espada de Batalha,1;Lâmina Maléfica,1
+NGCLF_BELT_LIGHT;Faixa,1;Cinto Ritual,1;Cinta de Cintura,1
+NGCLF_BLOWGUN;Tiro Oco,1;Estilingue de Sopro,1;Tubo de Bambu,1
+NGCLF_BOLA;Bola,1;Enredador,1;Aprisionador,1
+NGCLF_BOOK;Livro,1;Tomo,1;Compêndio,1
+NGCLF_BOOT_HEAVY;Sabatões,1;Botas de Placas,1;Botas Pesadas,1
+NGCLF_BOOT_LIGHT;Sapatos,1;Sandálias,1;Chinelos,1
+NGCLF_BRACERS_HEAVY;Braçadeiras de Placas,1;Braçadeiras,1;Guardas de Pulso,1
+NGCLF_BRACERS_LIGHT;Mangas,1;Punhos,1;Faixas de Pulso,1
+NGCLF_BRACERS_TENERGY;Braçadeiras de Scarthin,1;Braçadeiras Scarthin,1;Braçadeiras Scarthin Reforçadas,1
+NGCLF_BUCKLER;Broquel,1;Escudo Redondo Pequeno,1;Targa,1
+NGCLF_CHAINWEAPON;Estrela da Manhã,1;Flagelo,1;Nunchaku,1
+NGCLF_CHEST_HEAVY;Guarda-peito,1;Couraça,1;Peitoral,1
+NGCLF_CHEST_LIGHT;Manto,1;Vestes,1;Túnica,1
+NGCLF_CHEST_MEDIUM;Arreio,1;Cota de Malha,1;Colete de Batalha,1
+NGCLF_CLUB;Porrete,1;Maçanete,1;Bordão,1
+NGCLF_COWL_HEAVY;Bacinete,1;Capuz de Malha,1;Guarda-rosto,1
+NGCLF_COWL_LIGHT;Gorro,1;Capuz,1;Toco,1
+NGCLF_CRESTSHIELD;Escudo com Brasão,1;Protetor com Brasão,1;Defensor com Brasão,1
+NGCLF_DAGGER;Adaga,1;Dirk,1;Stiletto,1
+NGCLF_ENERGY_PISTOL;Pistola de Energia,1;Arma Pequena de Energia,1;Tiro de Energia,1
+NGCLF_ENERGY_WEAPON;Arma de Energia,1;Energizador,1;Arma Energística,1
+NGCLF_FISTWEAPON;Soco-inglês,1;Soco-inglês,1;Garras,1
+NGCLF_FLAIL;Flail,1;Flail de Batalha,1;Flail de Guerra,1
+NGCLF_FOIL;Rapieira,1;Sabre de Bordo,1;Spatha,1
+NGCLF_HALBERD;Alabarda,1;Bardiche,1;Gisarme,1
+NGCLF_HAMMER;Martelo,1;Martelo de Batalha,1;Demolidor,1
+NGCLF_HAND_HEAVY;Manoplas,1;Luvas de Placas,1;Guardas de Mão,1
+NGCLF_HAND_LIGHT;Luvas,1;Enfaixes de Mão,1;Miteneiras,1
+NGCLF_HELMET_HEAVY;Barbute,1;Capacete,1;Elmo Completo,1
+NGCLF_HELMET_LIGHT;Elmo,1;Barrete,1;Toucado,1
+NGCLF_JAVELIN;Lança,1;Dardo,1;Empalador,1
+NGCLF_JEWEL;Joia,1;Pedra Preciosa,1;Bugiganga,1
+NGCLF_LEG_HEAVY;Pernas de Placas,1;Guardas de Perna,1;Grevas,1
+NGCLF_LEG_LIGHT;Calças,1;Perneiras,1;Calças de Linho,1
+NGCLF_LONGBOW;Arco Longo,1;Arco Longo Composto,1;Arco Longo Entalhado,1
+NGCLF_MAGESTAFF;Bordão,1;Cajado de Mago,1;Varinha Mágica,1
+NGCLF_MAGESTAFF_2H;Cajado Longo,1;Cajado de Ritual,1;Cajado Cerimonial,1
+NGCLF_PISTOL;Pistola,1;Arma de Mão,1;Arma Pequena,1
+NGCLF_POLE;Glaive,1;Lança,1;Pique,1
+NGCLF_POTION;Poção,1;Elixir,1;Frasco,1
+NGCLF_REAGENT;Reagente,1;Ingredientes,1;Componentes,1
+NGCLF_RECEIPE;Receita,1;Fórmula,1;Método,1
+NGCLF_RECURVEBOW;Arco Recurvo,1;Arco Recurvo Pesado,1;Arco Recurvo de Chumbo,1
+NGCLF_RING;Anel,1;Anel Sinete,1;Argola,1
+NGCLF_ROUNDSHIELD;Escudo Redondo Grande,1;Defensor,1;Protetor,1
+NGCLF_RUNE;Runa,1;Glifo,1;Estilhaço,1
+NGCLF_SABER;Sabre,1;Falção,1;Cimitarra,1
+NGCLF_SADDLE;Sela,1;Sela de Trilha,1;Sela de Parada,1
+NGCLF_SADDLE_BATTLE;Sela de Combate,1;Sela de Guerra,1;Sela Alta,1
+NGCLF_SCROLL;Pergaminho,1;Pergaminho,1;Folha,1
+NGCLF_SHORTBOW;Arco Curto,1;Arco Curto Composto,1;Arco Leve,1
+NGCLF_SHORTSWORD;Espada Curta,1;Lâmina Veloz,1;Eviscerador,1
+NGCLF_SHOULDER_HEAVY;Hombreras,1;Ombreira,1;Placas de Ombro,1
+NGCLF_SHOULDER_LIGHT;Capa,1;Capote,1;Ombreiras de Pano,1
+NGCLF_SPIKEDSHIELD;Escudo de Espinhos,1;Protetor de Pontas,1;Defensor de Pontas,1
+NGCLF_SWORD;Lâmina Afiada,1;Lâmina Recozida,1;Lâmina Endurecida,1
+NGCLF_THROW_DAGGER;Adaga de Arremesso,1;Faca de Arremesso,1;Lâmina de Arremesso,1
+NGCLF_THROW_DRINK;Poção de Arremesso,1;Líquido Explosivo,1;Frasco Perigoso,1
+NGCLF_THROW_STAR;Estrela de Arremesso,1;Shuriken,1;Estrela Lâmina,1
+NGCLF_THROW_STONE;Rochas,1;Balines,1;Chumbo,1
+NGCLF_TOWERSHIELD;Égide,1;Escudo de Torre,1;Escudo de Pipa,1
+NGCLF_WHIP;Chicote,1;Açoite,1;Chicote de Equitação,1
+NGCLF_WINGS_HEAVY;Asas Reforçadas,1;Asas Duráveis,1;Asas Fortificadas,1
+NGCLF_WINGS_LIGHT;Aletaquinas,1;Asas de Seda,1;Asas de Gaze,1
+NGCLF_ARTEFACT;Relíquia,1;Relíquia,1;Relíquia,1
+NGCLF_BATTERY;Bateria,1;Bateria,1;Bateria,1

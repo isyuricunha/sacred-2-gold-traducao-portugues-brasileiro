@@ -8,7 +8,7 @@ decisões, problemas e a próxima etapa.
 
 - Geração: 52ac93bbf34f8812a15ea2a3025c5e07c06f4cd7724b114ca6c49539f1c79fdd
 - Corpus: 58.913 entradas, 118 lotes (RES 57.989 + CSVs 924)
-- Traduzido: 29.000/58.913 (49,2%)
+- Traduzido: 30.000/58.913 (50,9%)
 - Última etapa concluída: lote 0058 aplicado e commitado (29.000/58.913)
 
 ## Lotes concluídos
@@ -71,6 +71,8 @@ decisões, problemas e a próxima etapa.
 - 0056 (500 entradas) - aplicado; 1 erro meu corrigido antes do apply (3 chaves com general.res em vez de global.res); guia Seduzir Aristocratas e casamento adiado traduzidos; sotaque alemao do Ze mantido
 - 0057 (500 entradas) - aplicado sem rejeicoes; marco de 28.500 entradas (48,4%); Livro 3 (Venenos de Ancaria) traduzido na integra; nomes de lugares do mapa padronizados
 - 0058 (500 entradas) - aplicado sem rejeicoes; marco de 29.000 entradas (49,2%); itens de missao em serie (discos de identificacao, jade, pelos) padronizados; grupo d reconstruido casando a ordem do lote apos IDs com sufixo errado
+- 0059 (500 entradas) - aplicado sem rejeicoes; itens de missao em serie em massa (400+ nomes de item); par com chaves falsas reconstruido casando a ordem do lote
+- 0060 (500 entradas) - aplicado; marco de 30.000 entradas (50,9%): metade do corpus alcancada; Livro 6 (Ker) traduzido na integra; sobrenome de assassinio e conselho de estepes traduzidos
 
 ## Decisões e problemas abertos
 
@@ -83,4 +85,4 @@ decisões, problemas e a próxima etapa.
 
 ## Próxima etapa
 
-Traduzir batch-0060 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).
+Traduzir batch-0061 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).

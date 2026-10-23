@@ -8,7 +8,7 @@ decisões, problemas e a próxima etapa.
 
 - Geração: 52ac93bbf34f8812a15ea2a3025c5e07c06f4cd7724b114ca6c49539f1c79fdd
 - Corpus: 58.913 entradas, 118 lotes (RES 57.989 + CSVs 924)
-- Traduzido: 14.000/58.913
+- Traduzido: 14.500/58.913
 - Última etapa concluída: leitura dos docs; diretrizes e glossário iniciais
 
 ## Lotes concluídos
@@ -41,6 +41,7 @@ decisões, problemas e a próxima etapa.
 - 0026 (500 entradas) - aplicado; grupo c tinha 124 entradas (1 entrada faltava, 1129089054 AH! Droga!), aplicada depois; marco de 13.000 entradas; concordia Senhor Astral adicionada
 - 0027 (500 entradas) - aplicado sem rejeicoes; ordem do usuario: commit por lote SEM push (push unico no fim do projeto)
 - 0028 (500 entradas) - aplicado sem rejeicoes; marco de 14.000 entradas; falas goblinizadas de Goblin e Trolls mantidas
+- 0029 (500 entradas) - aplicado; 1 erro meu: chave locau/Ue digitada errada e faltou 1244357989; corrigi antes do apply; lotes de conjuntos de itens (Sarakis, Armantin, Lucretis, Denderan, Endijian/Niokaste/Celestial, Celdrahil/Faladal, Daerwain, Detheya, T-Energy, Demiurgo) padronizados
 - 0009 (500 entradas) - aplicado sem rejeicoes; fala boba de Troll/Orc goblinizada propositalmente; notas de som <...> copiadas exatas
 
 ## Decisões e problemas abertos
@@ -54,4 +55,4 @@ decisões, problemas e a próxima etapa.
 
 ## Próxima etapa
 
-Traduzir batch-0029 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22). LOTE 0015 CONCLUIDO (7.500/58.913): o commit da874a3 foi feito com so 375 strings aplicadas; as 125 finais entraram em commit separado.
+Traduzir batch-0030 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22). LOTE 0015 CONCLUIDO (7.500/58.913): o commit da874a3 foi feito com so 375 strings aplicadas; as 125 finais entraram em commit separado.

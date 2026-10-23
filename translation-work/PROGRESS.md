@@ -8,7 +8,7 @@ decisões, problemas e a próxima etapa.
 
 - Geração: 52ac93bbf34f8812a15ea2a3025c5e07c06f4cd7724b114ca6c49539f1c79fdd
 - Corpus: 58.913 entradas, 118 lotes (RES 57.989 + CSVs 924)
-- Traduzido: 56.000/58.913 (95,1%)
+- Traduzido: 56.500/58.913 (95,9%)
 - Última etapa concluída: lote 0058 aplicado e commitado (29.000/58.913)
 
 ## Lotes concluídos
@@ -125,6 +125,7 @@ decisões, problemas e a próxima etapa.
 - 0110 (500 entradas) - aplicado; marco de 55.000 entradas (93,4%); 1 rejeicao corrigida (placeholder <You pet Simon's head> mantido exato) com apply --replace
 - 0111 (500 entradas) - aplicado sem rejeicoes; marco de 55.500 entradas (94,2%); traducao nova limpa (sem vicios de geracao), livros Trolls e Guerreiro das Sombras integrais; estilo conversacional Orc/dryade mantido
 - 0112 (500 entradas) - aplicado sem rejeicoes (1o. apply rejeitou 1 por ordem de tags no tutorial Artes de Combate: EN usa <i>titulo<br></i>; corrigido e reaplicado); marco de 56.000 (95,1%); Wentelien masculino conforme EN (he/his); Timotan = Silvicultor (termo do 0074); texto dev "Hi RAB!!" mantido em EN
+- 0113 (500 entradas) - aplicado sem rejeicoes; marco de 56.500 (95,9%); Livro 2 Culinaria Driade integral (3 receitas); ~220 nomes de unidades/monstros do NameGen; gibs dev (ksjdlasdjakljd, asdfasfdasfasf, please sasfasfasdf) mantidos byte a byte; linha em alemao da crianca mantida
 
 ## Decisões e problemas abertos
 

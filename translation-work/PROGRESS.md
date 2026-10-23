@@ -76,7 +76,7 @@ decisões, problemas e a próxima etapa.
 - 0061 (500 entradas) - aplicado; 1 rejeicao corrigida (ordem de tags em Cerveja no Livro 3); marco de 30.500 entradas (51,8%); Livro 3 Nor Plat e Livro 3 Bebendo em Ancaria traduzidos na integra; etiqueta de Kobold com reversos mantidos
 - 0062 (500 entradas) - aplicado; marco de 31.000 entradas (52,6%); Livro 3 Bebendo em Ancaria concluido; lapides de easter eggs (42, De nihilo nihil) traduzidas
 - 0063 (500 entradas) - aplicado; marco de 31.500 entradas (53,5%); nomes de NPCs em serie (Badawi e soldadas de Orc) padronizados; 2 grupos com entradas a mais corrigidos por casamento EN->PT antes do apply
-- 0064 (500 entradas) - aplicado; marco de 32.000 entradas (54,3%); nomes de NPCs da ilha das Dríades e do casamento traduzidos; desenhos de atores mantidos em EN
+- 0064 (500 entradas) - aplicado; marco de 32.000 entradas (54,3%); nomes de NPCs da ilha das Dríades e do casamento traduzidos; desenhos de atores mantidos em EN; 4 hashes de nomes com off-by-one corrigidos contra a listagem do lote
 
 ## Decisões e problemas abertos
 

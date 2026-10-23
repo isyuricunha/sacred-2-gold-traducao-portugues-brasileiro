@@ -86,7 +86,7 @@ decisões, problemas e a próxima etapa.
 - 0071 (500 entradas) - aplicado; marco de 35.500 entradas (60,3%); Cruzada Impia e Sem-Nome padronizados; frase de Four My Sons e incantacoes convertidas
 - 0072 (500 entradas) - aplicado; marco de 36.000 entradas (61,1%); creditos reais da equipe mantidos; dialogo do amuleto de joias e sacerdote Sem-Nome traduzidos
 - 0073 (500 entradas) - aplicado; marco de 36.500 entradas (62%); negociadores, Guardas do Templo vintage (DX4/PIII) e sacerdotes por divindade padronizados; grupos cd aplicados apos corrigir entradas faltantes (Slave Theodus, Theodore)
-- 0074 (500 entradas) - aplicado; marco de 37.000 entradas (62,8%); creditos de Localizacao e Fans de Blind Guardian mantidos; Membros da gangue de Alibaba em serie; grupos cd aplicados apos adicionar entradas genericas faltantes
+- 0074 (500 entradas) - aplicado; marco de 37.000 entradas (62,8%); creditos de Localizacao e Fans de Blind Guardian mantidos; Membros da gangue de Alibaba em serie; grupos cd aplicados apos adicionar entradas genericas faltantes (Portal Cat, Guard, Hare, Inquisitor)
 
 ## Decisões e problemas abertos
 

@@ -71,4 +71,4 @@ decisões, problemas e a próxima etapa.
 
 ## Próxima etapa
 
-Traduzir batch-0048 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22). LOTE 0015 CONCLUIDO (7.500/58.913): o commit da874a3 foi feito com so 375 strings aplicadas; as 125 finais entraram em commit separado.
+Traduzir batch-0049 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22). LOTE 0015 CONCLUIDO (7.500/58.913): o commit da874a3 foi feito com so 375 strings aplicadas; as 125 finais entraram em commit separado.

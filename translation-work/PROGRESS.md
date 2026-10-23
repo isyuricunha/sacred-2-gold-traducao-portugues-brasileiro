@@ -8,7 +8,7 @@ decisões, problemas e a próxima etapa.
 
 - Geração: 52ac93bbf34f8812a15ea2a3025c5e07c06f4cd7724b114ca6c49539f1c79fdd
 - Corpus: 58.913 entradas, 118 lotes (RES 57.989 + CSVs 924)
-- Traduzido: 53.500/58.913 (90,8%)
+- Traduzido: 54.000/58.913 (91,7%)
 - Última etapa concluída: lote 0058 aplicado e commitado (29.000/58.913)
 
 ## Lotes concluídos
@@ -120,6 +120,7 @@ decisões, problemas e a próxima etapa.
 - 0105 (500 entradas) - aplicado; marco de 52.500 entradas (89,1%); entrada mitologica integral de Kali (deusa do Mal) traduzida; Y Oldah (poema do kobold nobre) e Nathalia (pingentes de gelo) completos
 - 0106 (500 entradas) - aplicado; marco de 53.000 entradas (90%); catalogo de aspectos/artes de combate (lote de nomes) em serie; dialogo Kali/culto e Nargutz derby Entruag-Tharak completos
 - 0107 (500 entradas) - aplicado; marco de 53.500 entradas (90,8%); sacrficics de sangue de Kuan (dialogo em serie) e caçadora de recompensas (Blackhammer/Ordaurcil) traduzidos
+- 0108 (500 entradas) - aplicado; marco de 54.000 entradas (91,7%); dialogo das plantas da Kybele (paciencia) e da mentora Serafim (Torpedia/Nathalia) completos
 
 ## Decisões e problemas abertos
 
@@ -132,4 +133,4 @@ decisões, problemas e a próxima etapa.
 
 ## Próxima etapa
 
-Traduzir batch-0108 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).
+Traduzir batch-0109 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).

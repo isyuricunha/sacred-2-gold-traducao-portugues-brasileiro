@@ -8,7 +8,7 @@ decisões, problemas e a próxima etapa.
 
 - Geração: 52ac93bbf34f8812a15ea2a3025c5e07c06f4cd7724b114ca6c49539f1c79fdd
 - Corpus: 58.913 entradas, 118 lotes (RES 57.989 + CSVs 924)
-- Traduzido: 51.000/58.913 (86,6%)
+- Traduzido: 51.500/58.913 (87,4%)
 - Última etapa concluída: lote 0058 aplicado e commitado (29.000/58.913)
 
 ## Lotes concluídos
@@ -115,6 +115,7 @@ decisões, problemas e a próxima etapa.
 - 0100 (500 entradas) - aplicado; marco de 50.000 entradas (84,9%); lote inteiro de catalogo de npcs/criaturas (Faxineira Rabugenta, Guardia do Gelo, Percalacin em serie); Livro 5 T-Energia fechou o 0099; dialogo da Droga-curandeira (escamas secas) traduzido
 - 0101 (500 entradas) - aplicado; marco de 50.500 entradas (85,7%); lote de nomes de npc (Aarondil ate Commander) com casos Mathilda/Fido/Dar Al Badja em serie; DVD/Tom Cruise e frase do poder supremo traduzidos
 - 0102 (500 entradas) - aplicado; marco de 51.000 entradas (86,6%); Livro 4 Magia de Veneno e variante Caça (com paragrafos finais) traduzidos na integra; dialogo Fellir/rata sagrada e Orc para Iniciantes completos
+- 0103 (500 entradas) - aplicado; marco de 51.500 entradas (87,4%); Livro 2 Espadas e Livro 2 Artamark (guia de viagem) traduzidos na integra; dialogo da esposa do Ullukai (dor de dente) e regras de brawlerball completos
 
 ## Decisões e problemas abertos
 
@@ -127,4 +128,4 @@ decisões, problemas e a próxima etapa.
 
 ## Próxima etapa
 
-Traduzir batch-0103 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).
+Traduzir batch-0104 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).

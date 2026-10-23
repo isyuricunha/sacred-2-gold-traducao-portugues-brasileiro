@@ -92,7 +92,7 @@ decisões, problemas e a próxima etapa.
 - 0077 (500 entradas) - aplicado; marco de 38.500 entradas (65,4%); Visao geral de Valores de Combate e chef Poul Brotheuse traduzidos; dialogo do black metal e ferido escavador traduzidos; apóstrofos tipograficos do EN copiados na chave (lookup com canonicalização de apostrofo)
 - 0078 (500 entradas) - aplicado; marco de 39.000 entradas (66,2%); Livro 5 Arqueiraria e Livro 4 Modos a Mesa traduzidos; sao de John Lennon e lapide da sogra; grupos b e cd concluidos apos adicionar entradas faltantes (pasto, cisma)
 - 0079 (500 entradas) - aplicado; marco de 39.500 entradas (67%); menu do Hearth (Musse au Salive) e rito da Grande Rata traduzidos; artes da Inquisidora em serie padronizadas
-- 0080 (500 entradas) - aplicado; marco de 40.000 entradas (67,9%); Livro 2 Magia de Fogo e Livro 6 T-Energia traduzidos na integra; dialogo de fantasmas do fogo (Antonio Bloise) traduzido
+- 0080 (500 entradas) - aplicado; marco de 40.000 entradas (67,9%); Livro 2 Magia de Fogo e Livro 6 T-Energia traduzidos na integra; dialogo de fantasmas do fogo (Antonio Bloise) traduzido; grupos b e cd concluidos apos corrigir espaco final e adicionar faltantes
 
 ## Decisões e problemas abertos
 

@@ -8,7 +8,7 @@ decisões, problemas e a próxima etapa.
 
 - Geração: 52ac93bbf34f8812a15ea2a3025c5e07c06f4cd7724b114ca6c49539f1c79fdd
 - Corpus: 58.913 entradas, 118 lotes (RES 57.989 + CSVs 924)
-- Traduzido: 44.500/58.913 (75,5%)
+- Traduzido: 45.000/58.913 (76,4%)
 - Última etapa concluída: lote 0058 aplicado e commitado (29.000/58.913)
 
 ## Lotes concluídos
@@ -102,6 +102,7 @@ decisões, problemas e a próxima etapa.
 - 0087 (500 entradas) - aplicado; marco de 43.500 entradas (73,8%); diario do mago (Tyrbor 129) e Livro 1 Culinaria Orc traduzidos na integra; mapa das localizacoes da Diaanja em serie
 - 0088 (500 entradas) - aplicado; marco de 44.000 entradas (74,7%); Livro Kuan deus da Guerra e abertura de Gelo e Sangue traduzidos; caso do EN de espaco unico (3234860071) resolvido com regra de espaco espelhado em build_payload/native.py (25 testes OK)
 - 0089 (500 entradas) - aplicado; marco de 44.500 entradas (75,5%); conversas de casamento/divorcio e doiscoes de Orcweiser traduzidos; nomes de reputacao (Reputada ate Perseveranca Heroica) em serie
+- 0090 (500 entradas) - aplicado; marco de 45.000 entradas (76,4%); carta do faroleiro e dialogo do enxofre da Serafim traduzidos; caso do 50 % (token printf falso) corrigido com por cento
 
 ## Decisões e problemas abertos
 
@@ -114,4 +115,4 @@ decisões, problemas e a próxima etapa.
 
 ## Próxima etapa
 
-Traduzir batch-0090 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).
+Traduzir batch-0091 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).

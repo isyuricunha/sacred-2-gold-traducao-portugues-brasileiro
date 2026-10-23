@@ -8,7 +8,7 @@ decisões, problemas e a próxima etapa.
 
 - Geração: 52ac93bbf34f8812a15ea2a3025c5e07c06f4cd7724b114ca6c49539f1c79fdd
 - Corpus: 58.913 entradas, 118 lotes (RES 57.989 + CSVs 924)
-- Traduzido: 35.500/58.913 (60,3%)
+- Traduzido: 36.000/58.913 (61,1%)
 - Última etapa concluída: lote 0058 aplicado e commitado (29.000/58.913)
 
 ## Lotes concluídos
@@ -84,6 +84,7 @@ decisões, problemas e a próxima etapa.
 - 0069 (500 entradas) - aplicado; marco de 34.500 entradas (58,5%); NPC nomes de aranhas/culto/Cruzada Impia/Clãs Orc padronizados; AMENDMENT: grupo b do lote 0059 (125 itens) estava faltando e foi aplicado agora; contagem conferida por contagem direta dos JSONL
 - 0070 (500 entradas) - aplicado; marco de 35.000 entradas (59,4%); nomes de NPCs (clãs Nur-Trak, trolls da montanha, camarada de comercio) padronizados
 - 0071 (500 entradas) - aplicado; marco de 35.500 entradas (60,3%); Cruzada Impia e Sem-Nome padronizados; frase de Four My Sons e incantacoes convertidas
+- 0072 (500 entradas) - aplicado; marco de 36.000 entradas (61,1%); creditos reais da equipe mantidos; dialogo do amuleto de joias e sacerdote Sem-Nome traduzidos
 
 ## Decisões e problemas abertos
 
@@ -96,4 +97,4 @@ decisões, problemas e a próxima etapa.
 
 ## Próxima etapa
 
-Traduzir batch-0072 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).
+Traduzir batch-0073 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).

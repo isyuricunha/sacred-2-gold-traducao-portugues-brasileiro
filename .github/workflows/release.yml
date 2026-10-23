@@ -1,27 +1,89 @@
-name: Empacotar PTBR
+name: Publicar tradução PT-BR
+
 on:
   push:
     branches: [main]
     paths:
       - 'PTBR/**'
   workflow_dispatch:
+
 permissions:
-  contents: read
+  contents: write
+
+concurrency:
+  group: ptbr-release-main
+  cancel-in-progress: false
+
 jobs:
-  package:
+  release:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
         with:
           ref: ${{ github.sha }}
+          fetch-depth: 0
           persist-credentials: false
-      - name: Verificar publicação sem reconstruir os recursos
+
+      - name: Evitar publicação de commit ultrapassado
+        id: head
+        env:
+          GH_TOKEN: "${{ github.token }}"
+        run: |
+          latest="$(gh api "repos/$GITHUB_REPOSITORY/branches/main" --jq '.commit.sha')"
+          if [[ "$latest" == "$GITHUB_SHA" ]]; then
+            echo "current=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "current=false" >> "$GITHUB_OUTPUT"
+            echo "Um commit posterior está em main. A execução mais recente fará a Release."
+          fi
+
+      - name: Verificar saída completa sem reconstruir
+        if: steps.head.outputs.current == 'true'
         run: python3 translation-work/toolkit.py verify-output --json
-      - name: Empacotar e conferir o ZIP
+
+      - name: Empacotar PTBR.zip e verificar membros
+        if: steps.head.outputs.current == 'true'
         run: python3 translation-work/toolkit.py package --json
-      - uses: actions/upload-artifact@v7
+
+      - name: Obter Releases publicadas
+        if: steps.head.outputs.current == 'true'
+        env:
+          GH_TOKEN: "${{ github.token }}"
+        run: gh release list --limit 1000 --json tagName,isDraft,isPrerelease > "$RUNNER_TEMP/releases.json"
+
+      - name: Planejar versão e changelog desde a Release anterior
+        id: version
+        if: steps.head.outputs.current == 'true'
+        run: |
+          python3 translation-work/release.py plan \
+            --releases-json "$RUNNER_TEMP/releases.json" \
+            --notes-file "$RUNNER_TEMP/release-notes.md" \
+            --plan-file "$RUNNER_TEMP/release-plan.json" \
+            --github-output "$GITHUB_OUTPUT"
+
+      - name: Manter artefato do workflow
+        if: steps.head.outputs.current == 'true'
+        uses: actions/upload-artifact@v7
         with:
           name: traducao-ptbr
           path: PTBR.zip
           if-no-files-found: error
           compression-level: 0
+
+      - name: Criar Release automática (com PTBR.zip e changelog)
+        if: steps.version.outputs.publish == 'true'
+        env:
+          GH_TOKEN: "${{ github.token }}"
+          VERSION: "${{ steps.version.outputs.tag }}"
+        run: |
+          latest="$(gh api "repos/$GITHUB_REPOSITORY/branches/main" --jq '.commit.sha')"
+          test "$latest" = "$GITHUB_SHA" || { echo "HEAD mudou; não publicar versão ultrapassada"; exit 1; }
+          gh release create "$VERSION" PTBR.zip \
+            --repo "$GITHUB_REPOSITORY" \
+            --target "$GITHUB_SHA" \
+            --title "Sacred 2 Gold — Tradução PT-BR ${VERSION#v}" \
+            --notes-file "$RUNNER_TEMP/release-notes.md" \
+            --latest
+          gh release view "$VERSION" --repo "$GITHUB_REPOSITORY" --json assets \
+            --jq '.assets[].name' | grep -Fx 'PTBR.zip'

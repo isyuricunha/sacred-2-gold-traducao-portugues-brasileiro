@@ -319,7 +319,11 @@ class Workflow(unittest.TestCase):
         paths = workflow.split('paths:', 1)[1].split('workflow_dispatch:', 1)[0]
         self.assertNotIn('translation-work', paths)
         self.assertNotIn('EN/', paths)
-        self.assertIn('contents: read', workflow)
+        self.assertIn('contents: write', workflow)
+        self.assertIn('concurrency:', workflow)
+        self.assertIn('release.py plan', workflow)
+        self.assertIn('gh release create', workflow)
+        self.assertIn('workflow_dispatch:', workflow)
         self.assertIn('verify-output', workflow)
         self.assertNotIn('toolkit.py build', workflow)
         self.assertIn('actions/upload-artifact@v7', workflow)

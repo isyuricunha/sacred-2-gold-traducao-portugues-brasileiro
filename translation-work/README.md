@@ -129,6 +129,17 @@ ou push é feito pela toolkit.
 
 ## Build e distribuição
 
+**Publicação automática no GitHub:** depois que a Ella concluir uma versão,
+execute `check`, `build`, `verify-output`, `package`, commite `PTBR/` e
+`translation-work/build-manifest.json` juntos e envie a `main` ao GitHub.
+O workflow `.github/workflows/release.yml` verifica a integridade, empacota o
+ZIP e **cria uma GitHub Release automaticamente**. A primeira é `v1.0.0`, as
+seguintes incrementam o patch SemVer (`v1.0.1`, `v1.0.2` etc.).
+As notas da Release são geradas comparando os registros PTBR e os arquivos
+nativos com a última Release publicada. Reexecuções sem mudanças de PTBR não
+geram outra versão. A introdução desse workflow após um build já publicado em
+Git pode ser inicializada uma vez com `workflow_dispatch` na `main`.
+
 Somente `build` toca PTBR. Exige todos os registros preenchidos, valida a sintaxe,
 reconstrói em memória/staging e verifica a equivalência por parse nativo. Publica
 o conjunto inteiro e seu recibo pela mesma transação recuperável. Falha preserva
@@ -144,12 +155,10 @@ assinatura contra um mantenedor que altere deliberadamente código e manifesto.
 com `locale/...` diretamente na raiz, sem pasta PTBR. Reabre o ZIP, confere
 membros únicos, integridade e hashes. O workflow em `.github/workflows/release.yml`
 executa apenas em push de PTBR na `main` ou manualmente, com permissão somente
-de leitura. Commits dos lotes não empacotam nada. Não cria GitHub Releases.
+de leitura. Commits dos lotes não empacotam nada. Além do artefato, cria a GitHub Release com PTBR.zip e changelog.
 Depois de um build concluído, versionar PTBR e build-manifest no mesmo commit.
 
-Para baixar: Actions → Empacotar PTBR → execução aprovada → Artifacts →
-traducao-ptbr. O ZIP do artefato contém o distributivo PTBR.zip. O serviço GitHub
-não foi executado nesta implementação; empacotamento local usa fixtures completas.
+Para baixar normalmente: GitHub → Releases → versão mais recente → Assets → PTBR.zip.\nO artefato do workflow também permanece disponível em Actions. A validação real\nda publicação deve ser conferida no GitHub após o primeiro acionamento.
 
 ## Primeiros passos da Ella
 

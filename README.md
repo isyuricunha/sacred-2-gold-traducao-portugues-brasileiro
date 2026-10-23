@@ -3,19 +3,26 @@
 Projeto de tradução dos textos de **Sacred 2 Gold / Ice & Blood** para PT-BR,
 usando os recursos do idioma inglês (`en_UK`). As vozes permanecem originais.
 
-**Em preparação: a tradução completa ainda não está disponível.** O teste inicial
-dos menus carregou no jogo e exibiu corretamente “Opções”. Isso não equivale à
-revisão de todos os textos ou à compatibilidade com todas as edições.
+**Tradução textual concluída:** 58.913 entradas traduzidas e validadas, com
+nove arquivos nativos gerados. O teste inicial dos menus carregou no jogo e
+exibiu corretamente “Opções”; ainda é necessária a validação completa em jogo
+pelo mantenedor.
 
 ## Download
 
-Ainda não há pacote publicado. Quando um build completo for enviado ao projeto,
-o pacote estará nos artefatos de uma execução bem-sucedida de
-[Empacotar PTBR](https://github.com/isyuricunha/sacred-2-gold-traducao-portugues-brasileiro/actions/workflows/release.yml).
-Abra a execução, baixe `traducao-ptbr` e extraia o `PTBR.zip` contido nesse download.
-Não instale os arquivos de trabalho do repositório.
+As versões completas são publicadas automaticamente em
+[GitHub Releases](https://github.com/isyuricunha/sacred-2-gold-traducao-portugues-brasileiro/releases/latest).
+Baixe o arquivo **PTBR.zip** diretamente na seção *Assets* da versão mais recente.
+A primeira publicação recebe a versão **v1.0.0**; cada nova alteração validada
+nos arquivos PTBR gera a versão de correção seguinte (**v1.0.1**, **v1.0.2** etc.),
+com changelog contendo alterações efetivas desde a Release anterior.
 
-## Instalação do futuro pacote
+O GitHub Actions também mantém o artefato de workflow `traducao-ptbr`, mas o
+arquivo público recomendado para instalação é o `PTBR.zip` da **Release**.
+Uma alteração apenas nos documentos ou nos lotes de trabalho não cria Release;
+o novo pacote é publicado somente após um build completo que altere PTBR/.
+
+## Instalação
 
 1. Feche o jogo e faça backup da pasta `locale/en_UK` da sua instalação.
 2. Extraia **PTBR.zip** em uma pasta temporária. A raiz do ZIP terá `locale/`.

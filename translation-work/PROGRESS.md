@@ -8,7 +8,7 @@ decisões, problemas e a próxima etapa.
 
 - Geração: 52ac93bbf34f8812a15ea2a3025c5e07c06f4cd7724b114ca6c49539f1c79fdd
 - Corpus: 58.913 entradas, 118 lotes (RES 57.989 + CSVs 924)
-- Traduzido: 58.000/58.913 (98,4%)
+- Traduzido: 58.500/58.913 (99,3%)
 - Última etapa concluída: lote 0058 aplicado e commitado (29.000/58.913)
 
 ## Lotes concluídos
@@ -129,6 +129,7 @@ decisões, problemas e a próxima etapa.
 - 0114 (500 entradas) - aplicado sem rejeicoes; marco de 57.000 (96,8%); ~450 nomes de unidades/montarias (Horse=Cavalo, Saddle=Cavalo de Sela, Gait=Cavalo de Passo, Charger=Cavalo de Batalha, Nag=Rafeiro, Racer=Corredor); dialogo do altar de Kybele; Kills=Abates
 - 0115 (500 entradas) - aplicado sem rejeicoes; marco de 57.500 (97,6%); Livro 4 Armas Duplas integral; falas Troll quebradas espelhadas; 10 pregs do Kuan; missao do filho do Mog'Ram; Nags e criaturas de Natal/Pascoa
 - 0116 (500 entradas) - aplicado sem rejeicoes; marco de 58.000 (98,4%); monologo do Abishai da Discordia; 7 tutoriais de forja/runas (tags <font size="6">&nbsp;</font> preservadas); compositores NAME_BON_DMG_* iniciados (de Ferida/de Brasas/da Geleira...)
+- 0117 (500 entradas) - aplicado sem rejeicoes; marco de 58.500 (99,3%); lote todo de compositores do NameGen (sufixos "de/da/do X", prefixos adjetivais "Ruinoso/Flamejante..."); chaves NAME_BON_* compartilhadas entre 0116 (sufixos "of Wounding") e 0117 (prefixos "Ruinous") tem EN distintos por lote; respeitado
 
 ## Decisões e problemas abertos
 

@@ -8,7 +8,7 @@ decisões, problemas e a próxima etapa.
 
 - Geração: 52ac93bbf34f8812a15ea2a3025c5e07c06f4cd7724b114ca6c49539f1c79fdd
 - Corpus: 58.913 entradas, 118 lotes (RES 57.989 + CSVs 924)
-- Traduzido: 49.500/58.913 (84%)
+- Traduzido: 50.000/58.913 (84,9%)
 - Última etapa concluída: lote 0058 aplicado e commitado (29.000/58.913)
 
 ## Lotes concluídos
@@ -112,6 +112,7 @@ decisões, problemas e a próxima etapa.
 - 0097 (500 entradas) - aplicado; marco de 48.500 entradas (82,3%); bolo de casamento com laxantes (rankweed) e massagem do Hipocampo traduzidos; mulheres a tomar o poder (3 linhas) em serie
 - 0098 (500 entradas) - aplicado; marco de 49.000 entradas (83,2%); Livro 3 Magia de Gelo e manual de Caça traduzidos na integra; dialogo do esfregao (faxineira) e Vampiro do Sonho completados
 - 0099 (500 entradas) - aplicado; marco de 49.500 entradas (84%); Livro 5 T-Energia traduzido na integra; balao de ar quente (resgate) e adivinhas do troll em serie; catalogo de criaturas de cristal em serie
+- 0100 (500 entradas) - aplicado; marco de 50.000 entradas (84,9%); lote inteiro de catalogo de npcs/criaturas (Faxineira Rabugenta, Guardia do Gelo, Percalacin em serie); Livro 5 T-Energia fechou o 0099; dialogo da Droga-curandeira (escamas secas) traduzido
 
 ## Decisões e problemas abertos
 
@@ -124,4 +125,4 @@ decisões, problemas e a próxima etapa.
 
 ## Próxima etapa
 
-Traduzir batch-0100 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).
+Traduzir batch-0101 (grupos pequenos, apply por payload, commit por lote). POLITICA DE PUSH: commits locais por lote; push unico nos tres remotes somente no final, por ordem de Yuri (2026-10-22).

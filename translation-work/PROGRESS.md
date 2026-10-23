@@ -8,7 +8,7 @@ decisões, problemas e a próxima etapa.
 
 - Geração: 52ac93bbf34f8812a15ea2a3025c5e07c06f4cd7724b114ca6c49539f1c79fdd
 - Corpus: 58.913 entradas, 118 lotes (RES 57.989 + CSVs 924)
-- Traduzido: 55.000/58.913 (93,4%)
+- Traduzido: 55.500/58.913 (94,2%)
 - Última etapa concluída: lote 0058 aplicado e commitado (29.000/58.913)
 
 ## Lotes concluídos
@@ -123,6 +123,7 @@ decisões, problemas e a próxima etapa.
 - 0108 (500 entradas) - aplicado; marco de 54.000 entradas (91,7%); dialogo das plantas da Kybele (paciencia) e da mentora Serafim (Torpedia/Nathalia) completos
 - 0109 (500 entradas) - aplicado; marco de 54.500 entradas (92,5%); lapides de humor (Kunibert o Celular, carne-seca do domador de leoes) e dialogo de imigrantes Orc em serie
 - 0110 (500 entradas) - aplicado; marco de 55.000 entradas (93,4%); 1 rejeicao corrigida (placeholder <You pet Simon's head> mantido exato) com apply --replace
+- 0111 (500 entradas) - aplicado sem rejeicoes; marco de 55.500 entradas (94,2%); traducao nova limpa (sem vicios de geracao), livros Trolls e Guerreiro das Sombras integrais; estilo conversacional Orc/dryade mantido
 
 ## Decisões e problemas abertos
 

@@ -88,7 +88,7 @@ decisões, problemas e a próxima etapa.
 - 0073 (500 entradas) - aplicado; marco de 36.500 entradas (62%); negociadores, Guardas do Templo vintage (DX4/PIII) e sacerdotes por divindade padronizados; grupos cd aplicados apos corrigir entradas faltantes (Slave Theodus, Theodore)
 - 0074 (500 entradas) - aplicado; marco de 37.000 entradas (62,8%); creditos de Localizacao e Fans de Blind Guardian mantidos; Membros da gangue de Alibaba em serie; grupos cd aplicados apos adicionar entradas genericas faltantes (Portal Cat, Guard, Hare, Inquisitor)
 - 0075 (500 entradas) - aplicado; marco de 37.500 entradas (63,7%); Du Rach em serie, T-Energy Creature, vitimas de Kulghar, Old Stag e Brother Fiandral padronizados
-- 0076 (500 entradas) - aplicado; marco de 38.000 entradas (64,5%); ilha de Natal (Fantasmas do Natal, Fadas Sombrias) e criaturas de cristal padronizadas; entradas avulsas (Ice Hydra, Easter Cult Runner, Seraphim Amicia, Gerund, Servant of the Harbinger of Death, Diaanja/Khormynth) adicionadas
+- 0076 (500 entradas) - aplicado; marco de 38.000 entradas (64,5%); ilha de Natal (Fantasmas do Natal, Fadas Sombrias) e criaturas de cristal padronizadas; entradas avulsas (Ice Hydra, Easter Cult Runner, Seraphim Amicia, Gerund, Servant of the Harbinger of Death, Diaanja/Khormynth, Sister Alesia) adicionadas
 
 ## Decisões e problemas abertos
 
